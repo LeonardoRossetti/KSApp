@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { ContactPage } from '../contact/contact';
+import { LifecycleEventsPage } from '../lifecycle-events/lifecycle-events';
 
 @Component({
   selector: 'page-home',
@@ -12,7 +13,7 @@ export class HomePage {
 
   }
 
-  pushPage():void{
+  pushPage(): void{
     this.navCtrl.push(ContactPage, {
       type:'push',
       course: 'Ionic',
@@ -23,9 +24,24 @@ export class HomePage {
     })
   }
 
-  setRoot():void{
+  setRoot(): void{
     this.navCtrl.setRoot(ContactPage, {
       type: 'setRoot'
     });
+  }
+
+  lifecycle(): void {
+    this.navCtrl.push(LifecycleEventsPage)
+      .then((authorizedAccess: boolean) => {
+         
+        if(authorizedAccess) {        
+          console.log('Page pushed!');
+        } else {
+          console.log('Acesso não autorizado!');
+        }
+      
+      }).catch(error => {
+        console.log('Mensagem se houver erro.', error);        
+      });
   }
 }
