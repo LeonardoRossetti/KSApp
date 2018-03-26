@@ -1,0 +1,18 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>estadosCidades</ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content padding>
+
+<ion-list no-lines>
+  <button ion-item *ngFor="let estado of estados | async" (click)="altera(estado)">
+    {{estado.name}}
+  </button>
+</ion-list> 
+
+
+</ion-content>

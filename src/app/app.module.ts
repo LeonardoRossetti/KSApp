@@ -1,13 +1,20 @@
-import { AngularFireModule, FirebaseAppConfig } from 'angularfire2';
+import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ErrorHandler, NgModule } from '@angular/core';
-import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
+import { HttpModule } from '@angular/http';
+import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
+
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { HomePage } from './../pages/home/home';
+import { AngularFireModule, FirebaseAppConfig } from 'angularfire2';
+
+import { HomePage } from '../pages/home/home';
 import { MyApp } from './app.component';
-import { SignupPage } from '../pages/signup/signup';
+import { SignupPage } from './../pages/signup/signup';
+import { UserService } from '../providers/user/user.service';
+import { AuthService } from '../providers/auth/auth.service';
+import { AngularFireAuthModule } from 'angularfire2/auth';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 const firebaseAppConfig: FirebaseAppConfig = {
   apiKey: "AIzaSyDJk6rV_N4xq8cmFYov5xqalcv-RrOKkqQ",
@@ -18,6 +25,7 @@ const firebaseAppConfig: FirebaseAppConfig = {
   messagingSenderId: "973664543161"
 }
 
+
 @NgModule({
   declarations: [
     HomePage,
@@ -25,9 +33,12 @@ const firebaseAppConfig: FirebaseAppConfig = {
     SignupPage
   ],
   imports: [
+    AngularFireModule.initializeApp(firebaseAppConfig),
+    AngularFireAuthModule,
+    AngularFireDatabaseModule,
     BrowserModule,
-    IonicModule.forRoot(MyApp),
-    AngularFireModule.initializeApp(firebaseAppConfig)
+    HttpModule,
+    IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -36,9 +47,11 @@ const firebaseAppConfig: FirebaseAppConfig = {
     SignupPage
   ],
   providers: [
+    AuthService,
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    UserService
   ]
 })
 export class AppModule {}
