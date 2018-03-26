@@ -1,7 +1,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Sign Up</ion-title>
+    <ion-title>Criar conta</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -15,12 +15,12 @@
   <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
   <ion-item>
     <ion-icon name="person" item-left></ion-icon>
-    <ion-input type="text" placeholder="Name" formControlName="name"></ion-input>
+    <ion-input type="text" placeholder="Nome" formControlName="name"></ion-input>
   </ion-item>
 
   <ion-item>
     <ion-icon name="at" item-left></ion-icon>
-    <ion-input type="text" placeholder="Username" formControlName="username"></ion-input>
+    <ion-input type="text" placeholder="Usuário" formControlName="username"></ion-input>
   </ion-item>
 
   <ion-item>
@@ -30,12 +30,12 @@
 
   <ion-item>
     <ion-icon name="lock" item-left></ion-icon>
-    <ion-input type="password" placeholder="Password" formControlName="password"></ion-input>
+    <ion-input type="password" placeholder="Senha" formControlName="password"></ion-input>
   </ion-item>
 
   <br>
 
-  <button ion-button full type="submit" [disabled]="signupForm.invalid">Create account</button>
+  <button ion-button full type="submit" [disabled]="signupForm.invalid">Criar Conta</button>
 </form>
 
 </ion-content>
