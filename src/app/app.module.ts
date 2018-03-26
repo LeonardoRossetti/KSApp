@@ -6,13 +6,14 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { AngularFireModule, FirebaseAppConfig } from 'angularfire2';
-
+import { AuthService } from '../providers/auth/auth.service';
 import { HomePage } from '../pages/home/home';
 import { MyApp } from './app.component';
+import { SigninPage } from './../pages/signin/signin';
 import { SignupPage } from './../pages/signup/signup';
 import { UserService } from '../providers/user/user.service';
-import { AuthService } from '../providers/auth/auth.service';
+
+import { AngularFireModule, FirebaseAppConfig } from 'angularfire2';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 
@@ -25,11 +26,11 @@ const firebaseAppConfig: FirebaseAppConfig = {
   messagingSenderId: "973664543161"
 }
 
-
 @NgModule({
   declarations: [
     HomePage,
     MyApp,
+    SigninPage,
     SignupPage
   ],
   imports: [
@@ -44,7 +45,8 @@ const firebaseAppConfig: FirebaseAppConfig = {
   entryComponents: [
     HomePage,
     MyApp,
-    SignupPage
+    SignupPage,
+    SigninPage
   ],
   providers: [
     AuthService,
