@@ -24,7 +24,7 @@ const firebaseAppConfig: FirebaseAppConfig = {
   projectId: "ionic2-ks",
   storageBucket: "ionic2-ks.appspot.com",
   messagingSenderId: "973664543161"
-}
+};
 
 @NgModule({
   declarations: [
