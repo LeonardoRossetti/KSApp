@@ -1,0 +1,67 @@
+{ 
+
+"users" : {
+	"AEF6JRMkmmc5NIGJwUtEtSy1BrW2" : {
+	"email" : "fulano@fulano.com",
+	"name" : "Fulano",
+	"username" : "Fulano"
+	},
+	"YRmiBu6CvfSs6m3SyRg6fGigzjS2" : {
+	"email" : "leoo.rossetti@gmail.com",
+	"name" : "Leonardo",
+	"username" : "leoros7"
+	}
+},
+
+
+"estados" :  { 
+      "PR" : {
+	"id" : "18",
+	"sigla" : "PR",
+	"nome" : "Paraná"
+	},
+      "RS" : {
+	"id": "23",
+	"sigla": "RS",
+	"nome": "Rio Grande do Sul"
+	},
+      "SC" : {
+	"id": "24",
+	"sigla": "SC",
+	"nome": "Santa Catarina" 
+	}
+},
+
+"cidades": {
+	"PR": {
+		"01": {
+			"nome": "Curitiba",
+			"radiacao":  "5"
+		},
+		"02": {
+			"nome": "Cascavel",
+			"radiacao":  "4"
+		}
+	},
+	"SC": {
+		"01": {
+			"nome": "Rio do Sul",
+			"radiacao":  "3"
+		},
+		"02": {
+			"nome": "Blumenau",
+			"radiacao":  "2"
+		}
+	},
+	"RS": {
+		"01": {
+			"nome": "Porto Alegre",
+			"radiacao":  "1"
+		},
+		"02": {
+			"nome": "Cambará",
+			"radiacao":  "0"
+		}
+	}
+}
+}
