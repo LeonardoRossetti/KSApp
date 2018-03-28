@@ -7,6 +7,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { AuthService } from '../providers/auth/auth.service';
+import { CustomLoggedHeaderComponent } from './../components/custom-logged-header/custom-logged-header.component';
 import { HomePage } from '../pages/home/home';
 import { MyApp } from './app.component';
 import { SigninPage } from './../pages/signin/signin';
@@ -28,6 +29,7 @@ const firebaseAppConfig: FirebaseAppConfig = {
 
 @NgModule({
   declarations: [
+    CustomLoggedHeaderComponent,
     HomePage,
     MyApp,
     SigninPage,
