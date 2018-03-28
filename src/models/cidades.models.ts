@@ -1,11 +1,10 @@
-export class Estado {
+export class Cidade {
 
     public $key: string;
 
     constructor(
-        public id: string,
         public nome: string,
-        public sigla: string
+        public radiacao: string
     ) {}
 
 }

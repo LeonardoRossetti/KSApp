@@ -12,6 +12,8 @@ import { HomePage } from '../pages/home/home';
 import { MyApp } from './app.component';
 import { SigninPage } from './../pages/signin/signin';
 import { SignupPage } from './../pages/signup/signup';
+import { CidadeService } from '../providers/cidade/cidade.service';
+import { EstadoService } from '../providers/estado/estado.service';
 import { UserService } from '../providers/user/user.service';
 
 import { AngularFireModule, FirebaseAppConfig } from 'angularfire2';
@@ -55,6 +57,8 @@ const firebaseAppConfig: FirebaseAppConfig = {
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
+    CidadeService,
+    EstadoService,
     UserService
   ]
 })

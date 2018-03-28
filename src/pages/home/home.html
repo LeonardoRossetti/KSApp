@@ -1,17 +1,28 @@
 <ion-header>
-
   <custom-logged-header title="KS | Home"></custom-logged-header>
-
-
-
+</ion-header>
 
 <ion-content padding>
 
 
   <ion-list no-lines>
-    <button ion-item *ngFor="let user of users | async" (click)="onChatCreate(user)">
+    <button ion-item *ngFor="let user of users | async">
       {{user.name}}
     </button>
   </ion-list> 
+
+  <ion-item>
+    <ion-label>Estados</ion-label>
+    <ion-select [(ngModel)]="estadoSelecionado" (ionChange)="carregaCidades();" cancelText="Cancelar" okText="OK">
+      <ion-option *ngFor="let estado of estados | async" value="{{estado.$key}}">{{estado.nome}}</ion-option>
+    </ion-select>
+</ion-item>
+
+<ion-item>
+  <ion-label>Cidades</ion-label>
+  <ion-select [(ngModel)]="cidadeSelecionada" (ionChange)="carregaRadiacao();" cancelText="Cancelar" okText="OK">
+    <ion-option *ngFor="let cidade of cidades | async" value="{{cidade.$key}}">{{cidade.nome}}</ion-option>
+  </ion-select>
+</ion-item>
 
 </ion-content>
