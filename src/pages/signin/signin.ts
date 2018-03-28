@@ -72,5 +72,4 @@ export class SigninPage {
       buttons: ['Ok']
     }).present();
   }
-
 }
