@@ -36,7 +36,7 @@ export class HomePage {
     return this.authService.authenticated;
   }
 
-  ionViewDidLoad(){
+  ionViewDidLoad() {
     this.users = this.userService.getAll();
     this.estados = this.estadoService.getAll();
   }
@@ -45,7 +45,7 @@ export class HomePage {
     this.cidades = this.cidadeService.getAll(this.estadoSelecionado);
   }
 
-  carregaRadiacao(): void{
+  carregaRadiacao(): void {
     console.log(this.cidadeSelecionada);
   }
 
