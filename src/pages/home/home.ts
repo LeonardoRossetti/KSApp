@@ -8,8 +8,6 @@ import { Cidade } from '../../models/cidades.models';
 import { CidadeService } from '../../providers/cidade/cidade.service';
 import { Estado } from '../../models/estados.models';
 import { EstadoService } from '../../providers/estado/estado.service';
-import { User } from '../../models/user.models';
-import { UserService } from '../../providers/user/user.service';
 import { AngularFireDatabase } from 'angularfire2/database';
 
 @Component({
@@ -18,7 +16,6 @@ import { AngularFireDatabase } from 'angularfire2/database';
 })
 export class HomePage {
 
-  users: Observable<User[]>;
   canEdit: boolean = false;
   estados: Observable<Estado[]>;
   estadoSelecionado: string;
@@ -32,8 +29,7 @@ export class HomePage {
     public cidadeService: CidadeService,
     public navCtrl: NavController, 
     public navParams: NavParams,
-    public estadoService: EstadoService,
-    public userService: UserService) {
+    public estadoService: EstadoService) {
   }
 
   ionViewCanEnter(): Promise<boolean> {
@@ -41,10 +37,9 @@ export class HomePage {
   }
 
   ionViewDidLoad() {
-    this.users = this.userService.getAll();
     this.estados = this.estadoService.getAll();
   }
-  
+
   carregaCidades(): void{
     this.canEdit = false;
     this.cidades = this.cidadeService.getAll(this.estadoSelecionado);
@@ -57,7 +52,7 @@ export class HomePage {
   carregaRadiacao(): void {
     if (this.cidadeSelecionada == null || this.cidadeSelecionada == "")
       return;
-      
+
     this.currentCidade = this.cidadeService.listaCidades.filter(x=> x.$key == this.cidadeSelecionada)[0];
 
   //   let c = this.cidades.map(processArray => {

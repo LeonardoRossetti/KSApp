@@ -13,6 +13,7 @@ import { Estado } from '../../models/estados.models';
 
 import * as firebase from 'firebase/app';
 import 'firebase/storage';
+import { Loading, LoadingController } from 'ionic-angular';
 
 @Injectable()
 export class EstadoService extends BaseService {
@@ -24,7 +25,8 @@ export class EstadoService extends BaseService {
     public afAuth: AngularFireAuth,
     public db: AngularFireDatabase,
     public firebaseApp: FirebaseApp,
-    public http: Http
+    public http: Http,
+    public loadingCtrl: LoadingController
   ) {
     super();  
   }
@@ -45,16 +47,28 @@ export class EstadoService extends BaseService {
   }
 
   getAll(): Observable<Estado[]> {
+    let loading: Loading = this.showLoading();
     this.estados = this.mapListKeys<Estado>(
       this.db.list<Estado>(`/estados`, 
         (ref: firebase.database.Reference) => ref.orderByChild('nome')
       )
     )
     .map((estados: Estado[]) => {
-      return estados
+      loading.dismiss();
+      return estados;
     });
 
     return this.estados;
+  }
+
+  private showLoading(): Loading {
+    let loading: Loading = this.loadingCtrl.create({
+      content: 'Please wait...'
+    });
+
+    loading.present();
+
+    return loading;
   }
 
 }

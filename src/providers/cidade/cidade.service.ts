@@ -13,6 +13,7 @@ import { Cidade } from './../../models/cidades.models';
 
 import * as firebase from 'firebase/app';
 import 'firebase/storage';
+import { Loading, LoadingController } from 'ionic-angular';
 
 @Injectable()
 export class CidadeService extends BaseService {
@@ -25,7 +26,8 @@ export class CidadeService extends BaseService {
     public afAuth: AngularFireAuth,
     public db: AngularFireDatabase,
     public firebaseApp: FirebaseApp,
-    public http: Http
+    public http: Http,
+    public loadingCtrl: LoadingController
   ) {
     super();  
   }
@@ -62,6 +64,9 @@ export class CidadeService extends BaseService {
   }
 
   getAll(estado): Observable<Cidade[]> {
+
+    let loading: Loading = this.showLoading();
+
     this.cidades = this.mapListKeys<Cidade>(
       this.db.list<Cidade>(`/cidades/${estado}`, 
         (ref: firebase.database.Reference) => ref//.orderByChild('nome')
@@ -69,10 +74,21 @@ export class CidadeService extends BaseService {
     )
     .map((cidades: Cidade[]) => {
       this.listaCidades = cidades;
+      loading.dismiss();
       return cidades;
     });
 
     return this.cidades;
+  }
+
+  private showLoading(): Loading {
+    let loading: Loading = this.loadingCtrl.create({
+      content: 'Please wait...'
+    });
+
+    loading.present();
+
+    return loading;
   }
 
 }
