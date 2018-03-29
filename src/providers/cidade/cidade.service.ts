@@ -19,6 +19,7 @@ export class CidadeService extends BaseService {
 
   cidades: Observable<Cidade[]>;
   currentCidade: AngularFireObject<Cidade>;
+  listaCidades: Cidade[];
 
   constructor(
     public afAuth: AngularFireAuth,
@@ -29,18 +30,18 @@ export class CidadeService extends BaseService {
     super();  
   }
 
-  private setCidades(uidToExclude: string): void {
-    this.cidades = this.mapListKeys<Cidade>(
-      this.db.list<Cidade>(`/cidades`, 
-        (ref: firebase.database.Reference) => ref.orderByChild('nome')
-      )
-    )
-    .map((cidades: Cidade[]) => {      
-      return cidades.filter((Cidade: Cidade) => Cidade.$key !== uidToExclude);
-    });
-  }
+  // private setCidades(uidToExclude: string): void {
+  //   this.cidades = this.mapListKeys<Cidade>(
+  //     this.db.list<Cidade>(`/cidades`, 
+  //       (ref: firebase.database.Reference) => ref.orderByChild('nome')
+  //     )
+  //   )
+  //   .map((cidades: Cidade[]) => {      
+  //     return cidades.filter((Cidade: Cidade) => Cidade.$key !== uidToExclude);
+  //   });
+  // }
 
-  edit(Cidade: {nome: string, radiacao: string}): Promise<void> {
+  edit(Cidade: {radiacao: string}): Promise<void> {
     return this.currentCidade
       .update(Cidade)
       .catch(this.handlePromiseError);
@@ -67,7 +68,8 @@ export class CidadeService extends BaseService {
       )
     )
     .map((cidades: Cidade[]) => {
-      return cidades
+      this.listaCidades = cidades;
+      return cidades;
     });
 
     return this.cidades;

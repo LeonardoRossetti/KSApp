@@ -4,13 +4,6 @@
 
 <ion-content padding>
 
-
-  <ion-list no-lines>
-    <button ion-item *ngFor="let user of users | async">
-      {{user.name}}
-    </button>
-  </ion-list> 
-
   <ion-item>
     <ion-label>Estados</ion-label>
     <ion-select [(ngModel)]="estadoSelecionado" (ionChange)="carregaCidades();" cancelText="Cancelar" okText="OK">
@@ -20,9 +13,26 @@
 
 <ion-item>
   <ion-label>Cidades</ion-label>
-  <ion-select [(ngModel)]="cidadeSelecionada" (ionChange)="carregaRadiacao();" cancelText="Cancelar" okText="OK">
+  <ion-select [(ngModel)]="cidadeSelecionada" (ionChange)="mudaCidadeSelecionada()" cancelText="Cancelar" okText="OK">
     <ion-option *ngFor="let cidade of cidades | async" value="{{cidade.$key}}">{{cidade.nome}}</ion-option>
   </ion-select>
 </ion-item>
+
+<button ion-button block (click)="carregaRadiacao()">Editar</button>
+
+<br>
+<form *ngIf="canEdit" #editForm="ngForm" (ngSubmit)="carregaRadiacao()">
+
+  <ion-item>
+      <ion-label>Radiação</ion-label>
+    <ion-input type="number" name="radiacao" [(ngModel)]="currentCidade.radiacao" required minlenght="1"></ion-input>
+    
+  </ion-item>
+
+  <button ion-button block type="submit" [disabled]="editForm.form.invalid">Salvar</button>
+
+</form>
+
+
 
 </ion-content>

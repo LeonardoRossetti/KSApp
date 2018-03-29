@@ -12,6 +12,8 @@ export class ChangeRadiationPage {
 
   @Input() title: string;
 
+  @Input() radiacao: string;
+
   //trazer a radiação e fazer a alteração da radiação aqui
 
   ionViewDidLoad() {
