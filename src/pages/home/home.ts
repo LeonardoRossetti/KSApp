@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams, Loading, LoadingController } from 'ionic-angular';
 import { Observable } from 'rxjs/Observable';
 
 import { AuthService } from '../../providers/auth/auth.service';
@@ -26,6 +26,7 @@ export class HomePage {
   constructor(
     public db: AngularFireDatabase,
     public authService: AuthService,
+    public loadingCtrl: LoadingController,
     public cidadeService: CidadeService,
     public navCtrl: NavController, 
     public navParams: NavParams,
@@ -42,11 +43,14 @@ export class HomePage {
 
   carregaCidades(): void{
     this.canEdit = false;
+    this.cidadeSelecionada = null;
+    this.currentCidade = null;
     this.cidades = this.cidadeService.getAll(this.estadoSelecionado);
   }
 
   mudaCidadeSelecionada(): void {
     this.canEdit = false;
+    this.cidadeService.currentCidade = this.cidadeService.get(this.cidadeSelecionada, this.estadoSelecionado);
   }
   
   carregaRadiacao(): void {
@@ -72,8 +76,29 @@ export class HomePage {
     }
   }
 
-  alterar(cidade): void{
-    console.log("Cidade: "+cidade);
-    
+  onSubmit(event: Event): void {
+    event.preventDefault();
+    this.editCity();
+  }
+
+  private editCity(): void {
+    let loading: Loading = this.showLoading();
+
+    this.cidadeService.edit({
+      //altera somente os campos que forem passados
+      radiacao: this.currentCidade.radiacao
+    }).then(() => {
+      this.canEdit = false;
+      loading.dismiss();
+    });
+  }
+
+  private showLoading(): Loading {
+    let loading: Loading = this.loadingCtrl.create({
+      content: 'Salvando...'
+    });
+
+    loading.present();
+    return loading;
   }
 }

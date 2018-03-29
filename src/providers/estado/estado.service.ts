@@ -4,8 +4,8 @@ import { Http } from '@angular/http';
 import { Observable } from 'rxjs';
 //import { map } from 'rxjs/operators/map';
 
-import { FirebaseApp } from "angularfire2";
-import { AngularFireAuth } from "angularfire2/auth";
+//import { FirebaseApp } from "angularfire2";
+//import { AngularFireAuth } from "angularfire2/auth";
 import { AngularFireDatabase, AngularFireObject/*, AngularFireList*/ } from "angularfire2/database";
 
 import { BaseService } from "./../base.service";
@@ -22,9 +22,9 @@ export class EstadoService extends BaseService {
   currentEstado: AngularFireObject<Estado>;
 
   constructor(
-    public afAuth: AngularFireAuth,
+    //public afAuth: AngularFireAuth,
     public db: AngularFireDatabase,
-    public firebaseApp: FirebaseApp,
+    //public firebaseApp: FirebaseApp,
     public http: Http,
     public loadingCtrl: LoadingController
   ) {

@@ -21,7 +21,7 @@
 <button ion-button block (click)="carregaRadiacao()">Editar</button>
 
 <br>
-<form *ngIf="canEdit" #editForm="ngForm" (ngSubmit)="carregaRadiacao()">
+<form *ngIf="canEdit" #editForm="ngForm" (ngSubmit)="onSubmit($event)">
 
   <ion-item>
       <ion-label>Radiação</ion-label>
