@@ -63,7 +63,7 @@ export class EstadoService extends BaseService {
 
   private showLoading(): Loading {
     let loading: Loading = this.loadingCtrl.create({
-      content: 'Please wait...'
+      content: 'Carregando estados...'
     });
 
     loading.present();
