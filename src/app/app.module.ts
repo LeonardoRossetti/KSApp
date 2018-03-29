@@ -7,7 +7,6 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { AuthService } from '../providers/auth/auth.service';
-import { ChangeRadiationPage } from '../pages/change-radiation/change-radiation';
 import { CustomLoggedHeaderComponent } from './../components/custom-logged-header/custom-logged-header.component';
 import { HomePage } from '../pages/home/home';
 import { MyApp } from './app.component';
@@ -32,7 +31,6 @@ const firebaseAppConfig: FirebaseAppConfig = {
 
 @NgModule({
   declarations: [
-    ChangeRadiationPage,
     CustomLoggedHeaderComponent,
     HomePage,
     MyApp,
@@ -49,7 +47,6 @@ const firebaseAppConfig: FirebaseAppConfig = {
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    ChangeRadiationPage,
     HomePage,
     MyApp,
     SignupPage,
