@@ -36,11 +36,11 @@ export class MyApp {
 
           this.rootPage = HomePage;
 
-          userService.currentUser
-            .valueChanges()
-            .subscribe((user: User) => {
-              this.currentUser = user;
-            });
+          // userService.currentUser
+          //   .valueChanges()
+          //   .subscribe((user: User) => {
+          //     this.currentUser = user;
+          //   });
 
         } else {
 

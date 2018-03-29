@@ -1,3 +1,4 @@
+import { ValorKitPage } from './../valor-kit/valor-kit';
 import { Component } from '@angular/core';
 import { NavController, NavParams, Loading, LoadingController } from 'ionic-angular';
 import { Observable } from 'rxjs/Observable';
@@ -91,6 +92,10 @@ export class HomePage {
       this.canEdit = false;
       loading.dismiss();
     });
+  }
+
+  alterarValorKits(): void {
+    this.navCtrl.push(ValorKitPage);
   }
 
   private showLoading(): Loading {

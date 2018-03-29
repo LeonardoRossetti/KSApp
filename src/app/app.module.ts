@@ -8,13 +8,15 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { AuthService } from '../providers/auth/auth.service';
 import { CustomLoggedHeaderComponent } from './../components/custom-logged-header/custom-logged-header.component';
+import { CidadeService } from '../providers/cidade/cidade.service';
+import { EstadoService } from '../providers/estado/estado.service';
 import { HomePage } from '../pages/home/home';
 import { MyApp } from './app.component';
 import { SigninPage } from './../pages/signin/signin';
 import { SignupPage } from './../pages/signup/signup';
-import { CidadeService } from '../providers/cidade/cidade.service';
-import { EstadoService } from '../providers/estado/estado.service';
 import { UserService } from '../providers/user/user.service';
+import { ValorKitService } from './../providers/valorKit/valorKit.service';
+import { ValorKitPage } from './../pages/valor-kit/valor-kit';
 
 import { AngularFireModule, FirebaseAppConfig } from 'angularfire2';
 import { AngularFireAuthModule } from 'angularfire2/auth';
@@ -35,7 +37,8 @@ const firebaseAppConfig: FirebaseAppConfig = {
     HomePage,
     MyApp,
     SigninPage,
-    SignupPage
+    SignupPage,
+    ValorKitPage
   ],
   imports: [
     AngularFireModule.initializeApp(firebaseAppConfig),
@@ -50,7 +53,8 @@ const firebaseAppConfig: FirebaseAppConfig = {
     HomePage,
     MyApp,
     SignupPage,
-    SigninPage
+    SigninPage,
+    ValorKitPage
   ],
   providers: [
     AuthService,
@@ -59,7 +63,8 @@ const firebaseAppConfig: FirebaseAppConfig = {
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     CidadeService,
     EstadoService,
-    UserService
+    UserService,
+    ValorKitService
   ]
 })
 export class AppModule {}

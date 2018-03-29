@@ -26,13 +26,12 @@
   <ion-item>
       <ion-label>Radiação</ion-label>
     <ion-input type="number" name="radiacao" [(ngModel)]="currentCidade.radiacao" required minlenght="1"></ion-input>
-    
   </ion-item>
 
   <button ion-button block type="submit" [disabled]="editForm.form.invalid">Salvar</button>
-
 </form>
 
 
+<button ion-button block type="button" (click)="alterarValorKits()">Alterar valor dos kits</button>
 
 </ion-content>

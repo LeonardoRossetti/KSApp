@@ -1,0 +1,80 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Altera valor do kit</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <form #editForm="ngForm" (ngSubmit)="onSubmit($event)">
+    <ion-item>
+      <ion-label>Até 5</ion-label>
+      <ion-input type="number" required minlenght="1"></ion-input>
+    </ion-item>
+    <ion-item>             
+      <ion-label>De 5 a 10</ion-label>
+      <ion-input type="number"  required minlenght="1"></ion-input>         
+    </ion-item>
+    <ion-item>             
+      <ion-label>De 10 a 15</ion-label>
+      <ion-input type="number"  required minlenght="1"></ion-input>         
+    </ion-item>
+    <ion-item>             
+      <ion-label>De 15 a 20</ion-label>
+      <ion-input type="number"  required minlenght="1"></ion-input>         
+    </ion-item>
+    <ion-item>             
+      <ion-label>De 20 a 25</ion-label>
+      <ion-input type="number"  required minlenght="1"></ion-input>         
+    </ion-item>
+    <ion-item>             
+      <ion-label>De 25 a 30</ion-label>
+      <ion-input type="number"  required minlenght="1"></ion-input>         
+    </ion-item>
+    <ion-item>             
+      <ion-label>De 30 a 35</ion-label>
+      <ion-input type="number"  required minlenght="1"></ion-input>         
+    </ion-item>
+    <ion-item>             
+      <ion-label>De 35 a 40</ion-label>
+      <ion-input type="number"  required minlenght="1"></ion-input>         
+    </ion-item>
+    <ion-item>             
+      <ion-label>De 40 a 45</ion-label>
+      <ion-input type="number"  required minlenght="1"></ion-input>         
+    </ion-item>
+    <ion-item>             
+      <ion-label>De 45 a 50</ion-label>
+      <ion-input type="number"  required minlenght="1"></ion-input>         
+    </ion-item>
+    <ion-item>             
+      <ion-label>De 50 a 55</ion-label>
+      <ion-input type="number"  required minlenght="1"></ion-input>         
+    </ion-item>
+    <ion-item>             
+      <ion-label>De 55 a 60</ion-label>
+      <ion-input type="number"  required minlenght="1"></ion-input>         
+    </ion-item>
+    <ion-item>             
+      <ion-label>De 60 a 65</ion-label>
+      <ion-input type="number"  required minlenght="1"></ion-input>         
+    </ion-item>
+    <ion-item>             
+      <ion-label>De 65 a 70</ion-label>
+      <ion-input type="number"  required minlenght="1"></ion-input>         
+    </ion-item>
+    <ion-item>             
+      <ion-label>De 70 a 75</ion-label>
+      <ion-input type="number"  required minlenght="1"></ion-input>         
+    </ion-item>
+
+    <button ion-button block type="submit" [disabled]="editForm.form.invalid">Salvar</button>
+  </form>
+
+
+        
+
+</ion-content>
