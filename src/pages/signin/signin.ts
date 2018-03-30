@@ -49,7 +49,6 @@ export class SigninPage {
         loading.dismiss();
         this.showAlert(error);
       });
-
   }
 
   onSignup(): void {

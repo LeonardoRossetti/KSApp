@@ -48,9 +48,10 @@ export class EstadoService extends BaseService {
 
   getAll(): Observable<Estado[]> {
     let loading: Loading = this.showLoading();
+    
     this.estados = this.mapListKeys<Estado>(
       this.db.list<Estado>(`/estados`, 
-        (ref: firebase.database.Reference) => ref.orderByChild('nome')
+        (ref: firebase.database.Reference) => ref
       )
     )
     .map((estados: Estado[]) => {

@@ -1,6 +1,6 @@
 import { ValorKit } from './../../models/valorkit.models';
 import { Component } from '@angular/core';
-import { NavController, NavParams, LoadingController, Form, Loading } from 'ionic-angular';
+import { NavController, NavParams, LoadingController, Loading } from 'ionic-angular';
 import { Observable } from 'rxjs/Observable';
 import { AngularFireDatabase } from 'angularfire2/database';
 import { AuthService } from '../../providers/auth/auth.service';

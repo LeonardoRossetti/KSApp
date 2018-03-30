@@ -27,28 +27,28 @@ export class MyApp {
     userService: UserService
   ) {
 
-    authService
-      .afAuth
-      .authState
-      .subscribe((authUser: firebase.User) => {
+    // authService
+    //   .afAuth
+    //   .authState
+    //   .subscribe((authUser: firebase.User) => {
 
-        if (authUser) {
+    //     if (authUser) {
 
-          this.rootPage = HomePage;
+    //       this.rootPage = HomePage;
 
-          // userService.currentUser
-          //   .valueChanges()
-          //   .subscribe((user: User) => {
-          //     this.currentUser = user;
-          //   });
+    //       // userService.currentUser
+    //       //   .valueChanges()
+    //       //   .subscribe((user: User) => {
+    //       //     this.currentUser = user;
+    //       //   });
 
-        } else {
+    //     } else {
 
           this.rootPage = SigninPage;
 
-        }
+      //   }
 
-      });
+      // });
 
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.

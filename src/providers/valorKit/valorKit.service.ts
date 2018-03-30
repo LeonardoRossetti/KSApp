@@ -47,7 +47,6 @@ export class ValorKitService extends BaseService {
   }
 
   getAll(): Observable<ValorKit[]> {
-
     let loading: Loading = this.showLoading();
 
     this.ValorKits = this.mapListKeys<ValorKit>(
