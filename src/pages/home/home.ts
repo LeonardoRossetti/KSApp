@@ -1,15 +1,14 @@
-import { ValorKitPage } from './../valor-kit/valor-kit';
+import { AngularFireDatabase } from 'angularfire2/database';
 import { Component } from '@angular/core';
 import { NavController, NavParams, Loading, LoadingController } from 'ionic-angular';
 import { Observable } from 'rxjs/Observable';
 
 import { AuthService } from '../../providers/auth/auth.service';
-
 import { Cidade } from '../../models/cidades.models';
 import { CidadeService } from '../../providers/cidade/cidade.service';
 import { Estado } from '../../models/estados.models';
 import { EstadoService } from '../../providers/estado/estado.service';
-import { AngularFireDatabase } from 'angularfire2/database';
+import { ValorKitPage } from './../valor-kit/valor-kit';
 
 @Component({
   selector: 'page-home',
@@ -59,18 +58,6 @@ export class HomePage {
       return;
 
     this.currentCidade = this.cidadeService.listaCidades.filter(x=> x.$key == this.cidadeSelecionada)[0];
-
-  //   let c = this.cidades.map(processArray => {
-  //     return processArray.filter(x=> x.$key == this.cidadeSelecionada)[0]
-  //     //.first()
-  //  });
-
-    //this.cidadeService.currentCidade = this.db.object(`/cidades/${this.estadoSelecionado}/${this.cidadeSelecionada}`);
-    //this.cidadeService.currentCidade = this.cidadeService.get(this.cidadeSelecionada);
-    
-    // this.cidades.forEach(element => {
-    //   this.currentCidade = element.filter(a => a.$key == this.cidadeSelecionada)[0];
-
 
     if (!this.canEdit) {
       this.canEdit = true;
