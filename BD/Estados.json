@@ -1,6 +1,4 @@
-{ 
-
-"valorKits": {
+{ "valorKits": {
 	"ate5" : {
 		"valor": "5.6", 
 		"nome": "Até 5"
@@ -105,7 +103,20 @@
 		"02": {
 			"nome": "Cascavel",
 			"radiacao":  "4"
+		},
+		"2784": {
+			"ID": "2784",
+			"Nome": "Abatiá",
+			"Estado": "18", 
+			"Radiacao": "5.25" 
 		}
+		
+
+
+		
+
+
+
 	},
 	"SC": {
 		"01": {

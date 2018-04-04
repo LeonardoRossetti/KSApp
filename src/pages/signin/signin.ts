@@ -4,7 +4,7 @@ import { AlertController, Loading, LoadingController, NavController, NavParams }
 
 import { AuthService } from '../../providers/auth/auth.service';
 import { HomePage } from './../home/home';
-import { SignupPage } from './../signup/signup';
+//import { SignupPage } from './../signup/signup';
 
 @Component({
   selector: 'page-signin',
@@ -51,9 +51,9 @@ export class SigninPage {
       });
   }
 
-  onSignup(): void {
-    this.navCtrl.push(SignupPage);
-  }
+  // onSignup(): void {
+  //   this.navCtrl.push(SignupPage);
+  // }
 
   private showLoading(): Loading {
     let loading: Loading = this.loadingCtrl.create({

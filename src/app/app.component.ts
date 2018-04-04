@@ -6,10 +6,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { AuthService } from './../providers/auth/auth.service';
 import { HomePage } from './../pages/home/home';
 import { SigninPage } from './../pages/signin/signin';
-import { User } from './../models/user.models';
-import { UserService } from './../providers/user/user.service';
+//import { User } from './../models/user.models';
+//import { UserService } from './../providers/user/user.service';
 
-import * as firebase from 'firebase/app';
+//import * as firebase from 'firebase/app';
 
 @Component({
   templateUrl: 'app.html'
@@ -17,16 +17,21 @@ import * as firebase from 'firebase/app';
 export class MyApp {
 
   rootPage:any;
-  currentUser: User;
+  //currentUser: User;
 
   constructor(
     authService: AuthService,
     platform: Platform, 
     statusBar: StatusBar, 
-    splashScreen: SplashScreen,
-    userService: UserService
+    splashScreen: SplashScreen//,
+    //userService: UserService
   ) {
 
+    if (authService.authenticated) {
+      this.rootPage = HomePage;
+    } else {
+      this.rootPage = SigninPage;
+    }
     // authService
     //   .afAuth
     //   .authState
@@ -44,7 +49,7 @@ export class MyApp {
 
     //     } else {
 
-          this.rootPage = SigninPage;
+          // this.rootPage = SigninPage;
 
       //   }
 

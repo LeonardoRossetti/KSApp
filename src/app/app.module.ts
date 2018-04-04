@@ -16,7 +16,6 @@ import { SigninPage } from './../pages/signin/signin';
 import { SignupPage } from './../pages/signup/signup';
 import { UserService } from '../providers/user/user.service';
 import { ValorKitService } from './../providers/valorKit/valorKit.service';
-import { ValorKitPage } from './../pages/valor-kit/valor-kit';
 
 import { AngularFireModule, FirebaseAppConfig } from 'angularfire2';
 import { AngularFireAuthModule } from 'angularfire2/auth';
@@ -37,8 +36,7 @@ const firebaseAppConfig: FirebaseAppConfig = {
     HomePage,
     MyApp,
     SigninPage,
-    SignupPage,
-    ValorKitPage
+    SignupPage
   ],
   imports: [
     AngularFireModule.initializeApp(firebaseAppConfig),
@@ -53,8 +51,7 @@ const firebaseAppConfig: FirebaseAppConfig = {
     HomePage,
     MyApp,
     SignupPage,
-    SigninPage,
-    ValorKitPage
+    SigninPage
   ],
   providers: [
     AuthService,
