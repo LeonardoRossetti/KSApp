@@ -4,7 +4,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { AuthService } from './../providers/auth/auth.service';
-import { HomePage } from './../pages/home/home';
+//import { HomePage } from './../pages/home/home';
 import { SigninPage } from './../pages/signin/signin';
 //import { User } from './../models/user.models';
 //import { UserService } from './../providers/user/user.service';
@@ -27,11 +27,12 @@ export class MyApp {
     //userService: UserService
   ) {
 
-    if (authService.authenticated) {
-      this.rootPage = HomePage;
-    } else {
+    // if (authService.authenticated) {
+    //   this.rootPage = HomePage;
+    // } else {
       this.rootPage = SigninPage;
-    }
+
+    //}
     // authService
     //   .afAuth
     //   .authState
