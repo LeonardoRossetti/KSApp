@@ -2,7 +2,7 @@
   <custom-logged-header [title]="view"></custom-logged-header>
 
   <ion-toolbar>
-    <ion-segment [(ngModel)]="view">
+    <ion-segment  class="itens" [(ngModel)]="view">
       <ion-segment-button value="Radiação">
         Radiação
       </ion-segment-button>
@@ -15,56 +15,59 @@
 </ion-header>
 
 <ion-content padding>
-
   <div [(ngSwitch)]="view">
-      <ion-list *ngSwitchCase="'Radiação'" no-lines>
-          <ion-item>
-              <ion-label>Estados</ion-label>
-              <ion-select [(ngModel)]="estadoSelecionado" (ionChange)="carregaCidades();" cancelText="Cancelar" okText="OK">
-                <ion-option *ngFor="let estado of estados | async" value="{{estado.$key}}">{{estado.nome}}</ion-option>
-              </ion-select>
-            </ion-item>
-          
-            <ion-item>
-              <ion-label>Cidades</ion-label>
-              <ion-select [(ngModel)]="cidadeSelecionada" (ionChange)="mudaCidadeSelecionada()" cancelText="Cancelar" okText="OK">
-                <ion-option *ngFor="let cidade of cidades | async" value="{{cidade.$key}}">{{cidade.nome}}</ion-option>
-              </ion-select>
-            </ion-item>
-          
-            <button ion-button block (click)="carregaRadiacao()">Editar</button>
-          
-          <br>
-          <form *ngIf="canEdit" #editForm="ngForm" (ngSubmit)="onSubmit($event)">
-          
-            <ion-item>
-                <ion-label>Radiação</ion-label>
-              <ion-input type="number" name="radiacao" [(ngModel)]="currentCidade.radiacao" required minlenght="1"></ion-input>
-            </ion-item>
-          
-            <button ion-button block type="submit" [disabled]="editForm.form.invalid">Salvar</button>
-          </form>
-      </ion-list>
+    <ion-list *ngSwitchCase="'Radiação'" no-lines>
+      <ion-item class="itemSelect">
+        <ion-label color="light">Estados</ion-label>
+        <ion-select [(ngModel)]="estadoSelecionado" (ionChange)="carregaCidades();" cancelText="Cancelar" okText="OK">
+          <ion-option *ngFor="let estado of estados | async" value="{{estado.$key}}">{{estado.nome}}</ion-option>
+        </ion-select>
+      </ion-item>
+      <br>
+      <ion-item class="itemSelect">
+        <ion-label color="light">Cidades</ion-label>
+        <ion-select [(ngModel)]="cidadeSelecionada" (ionChange)="mudaCidadeSelecionada()" cancelText="Cancelar" okText="OK">
+          <ion-option *ngFor="let cidade of cidades | async" value="{{cidade.$key}}">{{cidade.nome}}</ion-option>
+        </ion-select>
+      </ion-item>
+    
+      <button ion-button clear full class="botao" icon-left (click)="carregaRadiacao()">
+        <ion-icon class="icon-bigger" name="construct"></ion-icon>
+        Editar
+      </button>
+      
+      <br>
+      <form *ngIf="canEdit" #editForm="ngForm" (ngSubmit)="onSubmit($event)">          
+        <ion-item class="itens">
+          <ion-label color="light">Radiação</ion-label>
+          <ion-input type="number" name="radiacao" [(ngModel)]="currentCidade.radiacao" required minlenght="1"></ion-input>
+        </ion-item>
+        <button ion-button clear full class="botaoPrincipal" icon-left type="submit" [disabled]="editForm.form.invalid">
+          <ion-icon class="icon-bigger" name="checkmark-circle"></ion-icon>
+          Salvar
+        </button>
+      </form>
+    </ion-list>
 
 
-
-      <ion-list *ngSwitchCase="'Kits'" no-lines>
-        <form [formGroup]="myGroup" #editForm="ngForm" (ngSubmit)="onSubmitKit($event, editForm.value)">
-            <ion-item *ngFor="let kit of valorKit | async">
-              <ion-label>{{kit.nome}}</ion-label>
-              <ion-input type="number" formControlName="{{kit.$key}}" required minlenght="1" value="{{kit.valor}}"></ion-input>
-            </ion-item>
-        
-            <button ion-button block type="submit" [disabled]="editForm.form.invalid">Salvar</button>
-          </form>
-      </ion-list>
-
+    <ion-list *ngSwitchCase="'Kits'" no-lines>
+      <form [formGroup]="myGroup" #editForm="ngForm" (ngSubmit)="onSubmitKit($event, editForm.value)">
+        <ion-item class="itens" *ngFor="let kit of valorKit | async">
+          <ion-label color="light">{{kit.nome}}</ion-label>
+          <ion-input type="number" formControlName="{{kit.$key}}" required minlenght="1" value="{{kit.valor}}"></ion-input>
+        </ion-item>
+        <button ion-button clear full class="botaoPrincipal" icon-left type="submit" [disabled]="editForm.form.invalid">
+          <ion-icon class="icon-bigger" name="checkmark-circle"></ion-icon>
+          Salvar
+        </button>
+      </form>
+    </ion-list>
   </div>
 
-  <div style="display: none;">
-      <ion-item *ngFor="let kit of valorKit | async">
-          <ion-label>{{kit.nome}}</ion-label>
-        </ion-item>
+  <div style="display: none; position:absolute;">
+    <ion-item *ngFor="let kit of valorKit | async">
+      <ion-label>{{kit.nome}}</ion-label>
+    </ion-item>
   </div>
 
 </ion-content>

@@ -18,3 +18,44 @@
 .auth-icon{
     font-size: 7em;
 }
+
+.icon-bigger {
+    font-size:1.8em;
+}
+
+.botao {
+    border: 1px #AFEEEE solid;
+    border-radius: 5px;
+    color:white;
+    padding:26px 5px 26px 5px;
+    font-size:1.1em;
+    //background: linear-gradient(bottom, blue, white);
+    //linear-gradient(135deg, orange, orange 60%, cyan);
+}
+
+.botaoPrincipal{
+    border: 1px #AFEEEE solid;
+    border-radius: 5px;
+    padding:26px 5px 26px 5px;
+    font-size:1.1em;
+    background-color: #AFEEEE; 
+    color: black;
+    font-weight: bold;
+}
+
+ion-content {
+    background: #4682B4 !important;
+    //background-repeat: no-repeat;
+    //background-image: url('../assets/imgs/bkg_1.jpg');
+    //background-position: center;
+    //background-size: contain;
+}
+
+.itens{
+    background: rgba(0, 0, 0, 0); //deixa transparente
+}
+
+.itemSelect{
+    margin-left:-10px;
+    background: rgba(0, 0, 0, 0); //deixa transparente
+}
