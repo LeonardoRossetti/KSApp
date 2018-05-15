@@ -99,6 +99,8 @@ export class HomePage {
   private editCity(): void {
     let loading: Loading = this.showLoading();
 
+    this.cidadeService.currentDataAlteracao = this.valorKitService.getDataAlteracao();
+    
     this.cidadeService.edit({
       //altera somente os campos que forem passados
       radiacao: this.currentCidade.radiacao
@@ -125,6 +127,7 @@ export class HomePage {
     let loading = this.showLoading();
 
     this.valorKitService.currentValorKit = this.valorKitService.get(kit);
+    this.valorKitService.currentDataAlteracao = this.valorKitService.getDataAlteracao();
 
     this.valorKitService.edit({
       //altera somente os campos que forem passados

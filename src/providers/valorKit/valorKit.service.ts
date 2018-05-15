@@ -5,6 +5,7 @@ import { Observable } from 'rxjs';
 import { AngularFireDatabase, AngularFireObject } from "angularfire2/database";
 
 import { BaseService } from "./../base.service";
+import { ControleAlteracao } from './../../models/controleAlteracao.models';
 import { ValorKit } from './../../models/ValorKit.models';
 
 import * as firebase from 'firebase/app';
@@ -17,6 +18,7 @@ export class ValorKitService extends BaseService {
   ValorKits: Observable<ValorKit[]>;
   currentValorKit: AngularFireObject<ValorKit>;
   listaValorKits: ValorKit[];
+  currentDataAlteracao: AngularFireObject<ControleAlteracao>;
 
   constructor(
     public db: AngularFireDatabase,
@@ -27,6 +29,10 @@ export class ValorKitService extends BaseService {
   }
   
   edit(valorKit: { valor: string }): Promise<void> {
+    this.currentDataAlteracao
+      .update(new ControleAlteracao(new Date().toISOString()))
+      .catch(this.handlePromiseError);
+
     return this.currentValorKit
       .update(valorKit)
       .catch(this.handlePromiseError);
@@ -40,6 +46,10 @@ export class ValorKitService extends BaseService {
     .map((ValorKits: ValorKit[]) => {
       return ValorKits.length > 0;
     }).catch(this.handleObservableError);
+  }
+
+  getDataAlteracao(): AngularFireObject<ControleAlteracao>{
+    return this.db.object<ControleAlteracao>(`/ControleAlteracao`);
   }
 
   get(kit): AngularFireObject<ValorKit> {

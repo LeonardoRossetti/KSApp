@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="leoo.rossetti.gerenciadorKs" version="0.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="leoo.rossetti.gerenciadorKs" version="0.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Gerenciador</name>
     <description>An awesome app to manage informations who will be used on KS Energia Solar App calculations.</description>
     <author email="leoo.rossetti@gmail.com" href="http://www.ksenergia.com.br/">Ionic Framework Team</author>

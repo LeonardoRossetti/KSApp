@@ -1,142 +1,4857 @@
-{ "valorKits": {
-	"ate5" : {
-		"valor": "5.6", 
-		"nome": "Até 5"
-	}, 
-	"de5a10": {
-		"valor": "4.97",
-		"nome": "De 5 a 10"
-	}, 
-	"de10a15": {
-		"valor": "4.87", 
-		"nome": "De 10 a 15"
-	},
-	"de15a20": {
-		"valor": "4.54", 
-		"nome": "De 15 a 20"
-	},
-	"de20a25": {
-		"valor": "4.18", 
-		"nome": "De 20 a 25"
-	},
-	"de25a30": {
-		"valor": "4.15", 
-		"nome": "De 25 a 30"
-	},
-	"de30a35": {
-		"valor": "4.15", 
-		"nome": "De 30 a 35"
-	},
-	"de35a40": {
-		"valor": "4.01", 
-		"nome": "De 35 a 40"
-	},
-	"de40a45": {
-		"valor": "3.98", 
-		"nome": "De 40 a 45"
-	},
-	"de45a50": {
-		"valor": "3.9", 
-		"nome": "De 45 a 50"
-	},
- 	"de50a55": {
-		 "valor": "3.88", 
-		 "nome": "De 50 a 55"
-	},
-	"de55a60": {
-		"valor": "3.68", 
-		"nome": "De 55 a 60"
-	},
-	"de60a65": {
-		"valor": "3.66", 
-		"nome": "De 60 a 65"
-	},
-	"de65a70": {
-		"valor": "3.6", 
-		"nome": "De 65 a 70"
-	},
- 	"de70a75": {
-		 "valor": "3.56", 
-		 "nome": "De 70 a 75"
-	}
-},
-
-
-"users" : {
-	"AEF6JRMkmmc5NIGJwUtEtSy1BrW2" : {
-	"email" : "fulano@fulano.com",
-	"name" : "Fulano",
-	"username" : "Fulano"
-	},
-	"YRmiBu6CvfSs6m3SyRg6fGigzjS2" : {
-	"email" : "leoo.rossetti@gmail.com",
-	"name" : "Leonardo",
-	"username" : "leoros7"
-	}
-},
-
-
-"estados" :  { 
-      "PR" : {
-	"id" : "18",
-	"sigla" : "PR",
-	"nome" : "Paraná"
-	},
-      "RS" : {
-	"id": "23",
-	"sigla": "RS",
-	"nome": "Rio Grande do Sul"
-	},
-      "SC" : {
-	"id": "24",
-	"sigla": "SC",
-	"nome": "Santa Catarina" 
-	}
-},
-
-"cidades": {
-	"PR": {
-		"01": {
-			"nome": "Curitiba",
-			"radiacao":  "5"
+{
+	"cidades" : {
+	  "PR" : {
+		"2784" : {
+		  "nome" : "Abatiá",
+		  "radiacao" : "4.99"
 		},
-		"02": {
-			"nome": "Cascavel",
-			"radiacao":  "4"
+		"2785" : {
+		  "nome" : "Adrianópolis",
+		  "radiacao" : "4.49"
 		},
-		"2784": {
-			"ID": "2784",
-			"Nome": "Abatiá",
-			"Estado": "18", 
-			"Radiacao": "5.25" 
+		"2786" : {
+		  "nome" : "Agudos do Sul",
+		  "radiacao" : "4.21"
+		},
+		"2787" : {
+		  "nome" : "Almirante Tamandaré",
+		  "radiacao" : "4.27"
+		},
+		"2788" : {
+		  "nome" : "Altamira do Paraná",
+		  "radiacao" : "4.86"
+		},
+		"2789" : {
+		  "nome" : "Alto Paraíso",
+		  "radiacao" : "4.96"
+		},
+		"2790" : {
+		  "nome" : "Alto Paraná",
+		  "radiacao" : "5.01"
+		},
+		"2791" : {
+		  "nome" : "Alto Piquiri",
+		  "radiacao" : "5.26"
+		},
+		"2792" : {
+		  "nome" : "Altônia",
+		  "radiacao" : "4.94"
+		},
+		"2793" : {
+		  "nome" : "Alvorada do Sul",
+		  "radiacao" : "5.08"
+		},
+		"2794" : {
+		  "nome" : "Amaporã",
+		  "radiacao" : "4.99"
+		},
+		"2795" : {
+		  "nome" : "Ampére",
+		  "radiacao" : "5.14"
+		},
+		"2796" : {
+		  "nome" : "Anahy",
+		  "radiacao" : "5.23"
+		},
+		"2797" : {
+		  "nome" : "Andirá",
+		  "radiacao" : "5.00"
+		},
+		"2798" : {
+		  "nome" : "Ângulo",
+		  "radiacao" : "4.99"
+		},
+		"2799" : {
+		  "nome" : "Antonina",
+		  "radiacao" : "4.31"
+		},
+		"2800" : {
+		  "nome" : "Antônio Olinto",
+		  "radiacao" : "4.85"
+		},
+		"2801" : {
+		  "nome" : "Apucarana",
+		  "radiacao" : "4.95"
+		},
+		"2802" : {
+		  "nome" : "Arapongas",
+		  "radiacao" : "4.96"
+		},
+		"2803" : {
+		  "nome" : "Arapoti",
+		  "radiacao" : "4.76"
+		},
+		"2804" : {
+		  "nome" : "Arapuã",
+		  "radiacao" : "4.93"
+		},
+		"2805" : {
+		  "nome" : "Araruna",
+		  "radiacao" : "4.97"
+		},
+		"2806" : {
+		  "nome" : "Araucária",
+		  "radiacao" : "4.25"
+		},
+		"2807" : {
+		  "nome" : "Ariranha do Ivaí",
+		  "radiacao" : "4.86"
+		},
+		"2808" : {
+		  "nome" : "Assaí",
+		  "radiacao" : "4.98"
+		},
+		"2809" : {
+		  "nome" : "Assis Chateaubriand",
+		  "radiacao" : "5.24"
+		},
+		"2810" : {
+		  "nome" : "Astorga",
+		  "radiacao" : "5.00"
+		},
+		"2811" : {
+		  "nome" : "Atalaia",
+		  "radiacao" : "5.00"
+		},
+		"2812" : {
+		  "nome" : "Balsa Nova",
+		  "radiacao" : "4.26"
+		},
+		"2813" : {
+		  "nome" : "Bandeirantes",
+		  "radiacao" : "5.00"
+		},
+		"2814" : {
+		  "nome" : "Barbosa Ferraz",
+		  "radiacao" : "4.91"
+		},
+		"2815" : {
+		  "nome" : "Barra do Jacaré",
+		  "radiacao" : "5.73"
+		},
+		"2816" : {
+		  "nome" : "Barracão",
+		  "radiacao" : "5.05"
+		},
+		"2817" : {
+		  "nome" : "Bela Vista da Caroba",
+		  "radiacao" : "5.14"
+		},
+		"2818" : {
+		  "nome" : "Bela Vista do Paraíso",
+		  "radiacao" : "5.07"
+		},
+		"2819" : {
+		  "nome" : "Bituruna",
+		  "radiacao" : "4.87"
+		},
+		"2820" : {
+		  "nome" : "Boa Esperança",
+		  "radiacao" : "4.88"
+		},
+		"2821" : {
+		  "nome" : "Boa Esperança do Iguaçu",
+		  "radiacao" : "5.14"
+		},
+		"2822" : {
+		  "nome" : "Boa Ventura de São Roque",
+		  "radiacao" : "4.76"
+		},
+		"2823" : {
+		  "nome" : "Boa Vista da Aparecida",
+		  "radiacao" : "5.11"
+		},
+		"2824" : {
+		  "nome" : "Bocaiúva do Sul",
+		  "radiacao" : "4.25"
+		},
+		"2825" : {
+		  "nome" : "Bom Jesus do Sul",
+		  "radiacao" : "5.07"
+		},
+		"2826" : {
+		  "nome" : "Bom Sucesso",
+		  "radiacao" : "4.95"
+		},
+		"2827" : {
+		  "nome" : "Bom Sucesso do Sul",
+		  "radiacao" : "5.06"
+		},
+		"2828" : {
+		  "nome" : "Borrazópolis",
+		  "radiacao" : "4.95"
+		},
+		"2829" : {
+		  "nome" : "Braganey",
+		  "radiacao" : "5.21"
+		},
+		"2830" : {
+		  "nome" : "Brasilândia do Sul",
+		  "radiacao" : "5.25"
+		},
+		"2831" : {
+		  "nome" : "Cafeara",
+		  "radiacao" : "5.10"
+		},
+		"2832" : {
+		  "nome" : "Cafelândia",
+		  "radiacao" : "5.22"
+		},
+		"2833" : {
+		  "nome" : "Cafezal do Sul",
+		  "radiacao" : "4.96"
+		},
+		"2834" : {
+		  "nome" : "Califórnia",
+		  "radiacao" : "4.94"
+		},
+		"2835" : {
+		  "nome" : "Cambará",
+		  "radiacao" : "5.00"
+		},
+		"2836" : {
+		  "nome" : "Cambé",
+		  "radiacao" : "4.97"
+		},
+		"2837" : {
+		  "nome" : "Cambira",
+		  "radiacao" : "4.94"
+		},
+		"2838" : {
+		  "nome" : "Campina da Lagoa",
+		  "radiacao" : "4.86"
+		},
+		"2839" : {
+		  "nome" : "Campina do Simão",
+		  "radiacao" : "4.70"
+		},
+		"2840" : {
+		  "nome" : "Campina Grande do Sul",
+		  "radiacao" : "4.24"
+		},
+		"2841" : {
+		  "nome" : "Campo Bonito",
+		  "radiacao" : "4.77"
+		},
+		"2842" : {
+		  "nome" : "Campo do Tenente",
+		  "radiacao" : "4.23"
+		},
+		"2843" : {
+		  "nome" : "Campo Largo",
+		  "radiacao" : "4.25"
+		},
+		"2844" : {
+		  "nome" : "Campo Magro",
+		  "radiacao" : "4.26"
+		},
+		"2845" : {
+		  "nome" : "Campo Mourão",
+		  "radiacao" : "4.89"
+		},
+		"2846" : {
+		  "nome" : "Cândido de Abreu",
+		  "radiacao" : "4.83"
+		},
+		"2847" : {
+		  "nome" : "Candói",
+		  "radiacao" : "4.74"
+		},
+		"2848" : {
+		  "nome" : "Cantagalo",
+		  "radiacao" : "4.74"
+		},
+		"2849" : {
+		  "nome" : "Capanema",
+		  "radiacao" : "5.12"
+		},
+		"2850" : {
+		  "nome" : "Capitão Leônidas Marques",
+		  "radiacao" : "5.11"
+		},
+		"2851" : {
+		  "nome" : "Carambeí",
+		  "radiacao" : "5.06"
+		},
+		"2852" : {
+		  "nome" : "Carlópolis",
+		  "radiacao" : "4.96"
+		},
+		"2853" : {
+		  "nome" : "Cascavel",
+		  "radiacao" : "5.18"
+		},
+		"2854" : {
+		  "nome" : "Castro",
+		  "radiacao" : "4.49"
+		},
+		"2855" : {
+		  "nome" : "Catanduvas",
+		  "radiacao" : "5.10"
+		},
+		"2856" : {
+		  "nome" : "Centenário do Sul",
+		  "radiacao" : "5.08"
+		},
+		"2857" : {
+		  "nome" : "Cerro Azul",
+		  "radiacao" : "4.52"
+		},
+		"2858" : {
+		  "nome" : "Céu Azul",
+		  "radiacao" : "5.11"
+		},
+		"2859" : {
+		  "nome" : "Chopinzinho",
+		  "radiacao" : "4.76"
+		},
+		"2860" : {
+		  "nome" : "Cianorte",
+		  "radiacao" : "4.97"
+		},
+		"2861" : {
+		  "nome" : "Cidade Gaúcha",
+		  "radiacao" : "4.99"
+		},
+		"2862" : {
+		  "nome" : "Clevelândia",
+		  "radiacao" : "5.03"
+		},
+		"2863" : {
+		  "nome" : "Colombo",
+		  "radiacao" : "4.24"
+		},
+		"2864" : {
+		  "nome" : "Colorado",
+		  "radiacao" : "5.08"
+		},
+		"2865" : {
+		  "nome" : "Congonhinhas",
+		  "radiacao" : "4.96"
+		},
+		"2866" : {
+		  "nome" : "Conselheiro Mairinck",
+		  "radiacao" : "4.95"
+		},
+		"2867" : {
+		  "nome" : "Contenda",
+		  "radiacao" : "4.26"
+		},
+		"2868" : {
+		  "nome" : "Corbélia",
+		  "radiacao" : "5.22"
+		},
+		"2869" : {
+		  "nome" : "Cornélio Procópio",
+		  "radiacao" : "5.01"
+		},
+		"2870" : {
+		  "nome" : "Coronel Domingos Soares",
+		  "radiacao" : "5.00"
+		},
+		"2871" : {
+		  "nome" : "Coronel Vivida",
+		  "radiacao" : "4.75"
+		},
+		"2872" : {
+		  "nome" : "Corumbataí do Sul",
+		  "radiacao" : "4.90"
+		},
+		"2873" : {
+		  "nome" : "Cruz Machado",
+		  "radiacao" : "4,85"
+		},
+		"2874" : {
+		  "nome" : "Cruzeiro do Iguaçu",
+		  "radiacao" : "5.13"
+		},
+		"2875" : {
+		  "nome" : "Cruzeiro do Oeste",
+		  "radiacao" : "4.98"
+		},
+		"2876" : {
+		  "nome" : "Cruzeiro do Sul",
+		  "radiacao" : "5.05"
+		},
+		"2877" : {
+		  "nome" : "Cruzmaltina",
+		  "radiacao" : "4.99"
+		},
+		"2878" : {
+		  "nome" : "Curitiba",
+		  "radiacao" : "4.25"
+		},
+		"2879" : {
+		  "nome" : "Curiúva",
+		  "radiacao" : "5.14"
+		},
+		"2880" : {
+		  "nome" : "Diamante d`Oeste",
+		  "radiacao" : "5.22"
+		},
+		"2881" : {
+		  "nome" : "Diamante do Norte",
+		  "radiacao" : "5.07"
+		},
+		"2882" : {
+		  "nome" : "Diamante do Sul",
+		  "radiacao" : "4.80"
+		},
+		"2883" : {
+		  "nome" : "Dois Vizinhos",
+		  "radiacao" : "5.13"
+		},
+		"2884" : {
+		  "nome" : "Douradina",
+		  "radiacao" : "4.99"
+		},
+		"2885" : {
+		  "nome" : "Doutor Camargo",
+		  "radiacao" : "4.96"
+		},
+		"2886" : {
+		  "nome" : "Doutor Ulysses",
+		  "radiacao" : "4.48"
+		},
+		"2887" : {
+		  "nome" : "Enéas Marques",
+		  "radiacao" : "5.13"
+		},
+		"2888" : {
+		  "nome" : "Engenheiro Beltrão",
+		  "radiacao" : "4.97"
+		},
+		"2889" : {
+		  "nome" : "Entre Rios do Oeste",
+		  "radiacao" : "5.23"
+		},
+		"2890" : {
+		  "nome" : "Esperança Nova",
+		  "radiacao" : "4.97"
+		},
+		"2891" : {
+		  "nome" : "Espigão Alto do Iguaçu",
+		  "radiacao" : "4.75"
+		},
+		"2892" : {
+		  "nome" : "Farol",
+		  "radiacao" : "4.89"
+		},
+		"2893" : {
+		  "nome" : "Faxinal",
+		  "radiacao" : "4.91"
+		},
+		"2894" : {
+		  "nome" : "Fazenda Rio Grande",
+		  "radiacao" : "4.24"
+		},
+		"2895" : {
+		  "nome" : "Fênix",
+		  "radiacao" : ""
+		},
+		"2896" : {
+		  "nome" : "Fernandes Pinheiro",
+		  "radiacao" : "4.92"
+		},
+		"2897" : {
+		  "nome" : "Figueira",
+		  "radiacao" : "4.84"
+		},
+		"2898" : {
+		  "nome" : "Flor da Serra do Sul",
+		  "radiacao" : "5.04"
+		},
+		"2899" : {
+		  "nome" : "Floraí",
+		  "radiacao" : "4.99"
+		},
+		"2900" : {
+		  "nome" : "Floresta",
+		  "radiacao" : "4.96"
+		},
+		"2901" : {
+		  "nome" : "Florestópolis",
+		  "radiacao" : "5.08"
+		},
+		"2902" : {
+		  "nome" : "Flórida",
+		  "radiacao" : "5.03"
+		},
+		"2903" : {
+		  "nome" : "Formosa do Oeste",
+		  "radiacao" : "5.25"
+		},
+		"2904" : {
+		  "nome" : "Foz do Iguaçu",
+		  "radiacao" : "4.80"
+		},
+		"2905" : {
+		  "nome" : "Foz do Jordão",
+		  "radiacao" : "4,73"
+		},
+		"2906" : {
+		  "nome" : "Francisco Alves",
+		  "radiacao" : "4.97"
+		},
+		"2907" : {
+		  "nome" : "Francisco Beltrão",
+		  "radiacao" : "5.06"
+		},
+		"2908" : {
+		  "nome" : "General Carneiro",
+		  "radiacao" : "4.80"
+		},
+		"2909" : {
+		  "nome" : "Godoy Moreira",
+		  "radiacao" : "4.89"
+		},
+		"2910" : {
+		  "nome" : "Goioerê",
+		  "radiacao" : "5.26"
+		},
+		"2911" : {
+		  "nome" : "Goioxim",
+		  "radiacao" : "4.72"
+		},
+		"2912" : {
+		  "nome" : "Grandes Rios",
+		  "radiacao" : "4.88"
+		},
+		"2913" : {
+		  "nome" : "Guaíra",
+		  "radiacao" : "5.25"
+		},
+		"2914" : {
+		  "nome" : "Guairaçá",
+		  "radiacao" : "5.04"
+		},
+		"2915" : {
+		  "nome" : "Guamiranga",
+		  "radiacao" : "4.57"
+		},
+		"2916" : {
+		  "nome" : "Guapirama",
+		  "radiacao" : "4.96"
+		},
+		"2917" : {
+		  "nome" : "Guaporema",
+		  "radiacao" : "4.99"
+		},
+		"2918" : {
+		  "nome" : "Guaraci",
+		  "radiacao" : "5.08"
+		},
+		"2919" : {
+		  "nome" : "Guaraniaçu",
+		  "radiacao" : "4.77"
+		},
+		"2920" : {
+		  "nome" : "Guarapuava",
+		  "radiacao" : "4.65"
+		},
+		"2921" : {
+		  "nome" : "Guaraqueçaba",
+		  "radiacao" : "4.30"
+		},
+		"2922" : {
+		  "nome" : "Guaratuba",
+		  "radiacao" : "4.32"
+		},
+		"2923" : {
+		  "nome" : "Honório Serpa",
+		  "radiacao" : "5.04"
+		},
+		"2924" : {
+		  "nome" : "Ibaiti",
+		  "radiacao" : "4.91"
+		},
+		"2925" : {
+		  "nome" : "Ibema",
+		  "radiacao" : "5.11"
+		},
+		"2926" : {
+		  "nome" : "Ibiporã",
+		  "radiacao" : "4.98"
+		},
+		"2927" : {
+		  "nome" : "Icaraíma",
+		  "radiacao" : "5.00"
+		},
+		"2928" : {
+		  "nome" : "Iguaraçu",
+		  "radiacao" : "5.01"
+		},
+		"2929" : {
+		  "nome" : "Iguatu",
+		  "radiacao" : "5.23"
+		},
+		"2930" : {
+		  "nome" : "Imbaú",
+		  "radiacao" : "5.13"
+		},
+		"2931" : {
+		  "nome" : "Imbituva",
+		  "radiacao" : "4.97"
+		},
+		"2932" : {
+		  "nome" : "Inácio Martins",
+		  "radiacao" : "4.50"
+		},
+		"2933" : {
+		  "nome" : "Inajá",
+		  "radiacao" : "5.07"
+		},
+		"2934" : {
+		  "nome" : "Indianópolis",
+		  "radiacao" : "5.02"
+		},
+		"2935" : {
+		  "nome" : "Ipiranga",
+		  "radiacao" : "4.57"
+		},
+		"2936" : {
+		  "nome" : "Iporã",
+		  "radiacao" : "5.25"
+		},
+		"2937" : {
+		  "nome" : "Iracema do Oeste",
+		  "radiacao" : "5.24"
+		},
+		"2938" : {
+		  "nome" : "Irati",
+		  "radiacao" : "4.93"
+		},
+		"2939" : {
+		  "nome" : "Iretama",
+		  "radiacao" : "4.89"
+		},
+		"2940" : {
+		  "nome" : "Itaguajé",
+		  "radiacao" : "5.10"
+		},
+		"2941" : {
+		  "nome" : "Itaipulândia",
+		  "radiacao" : "4.82"
+		},
+		"2942" : {
+		  "nome" : "Itambaracá",
+		  "radiacao" : "5.00"
+		},
+		"2943" : {
+		  "nome" : "Itambé",
+		  "radiacao" : "5.01"
+		},
+		"2944" : {
+		  "nome" : "Itapejara d`Oeste",
+		  "radiacao" : "4.76"
+		},
+		"2945" : {
+		  "nome" : "Itaperuçu",
+		  "radiacao" : "4.28"
+		},
+		"2946" : {
+		  "nome" : "Itaúna do Sul",
+		  "radiacao" : "5.07"
+		},
+		"2947" : {
+		  "nome" : "Ivaí",
+		  "radiacao" : "5.05"
+		},
+		"2948" : {
+		  "nome" : "Ivaiporã",
+		  "radiacao" : "4.87"
+		},
+		"2949" : {
+		  "nome" : "Ivaté",
+		  "radiacao" : "4.99"
+		},
+		"2950" : {
+		  "nome" : "Ivatuba",
+		  "radiacao" : "4.99"
+		},
+		"2951" : {
+		  "nome" : "Jaboti",
+		  "radiacao" : "4.94"
+		},
+		"2952" : {
+		  "nome" : "Jacarezinho",
+		  "radiacao" : "4.99"
+		},
+		"2953" : {
+		  "nome" : "Jaguapitã",
+		  "radiacao" : "5.02"
+		},
+		"2954" : {
+		  "nome" : "Jaguariaíva",
+		  "radiacao" : "4.72"
+		},
+		"2955" : {
+		  "nome" : "Jandaia do Sul",
+		  "radiacao" : "5.95"
+		},
+		"2956" : {
+		  "nome" : "Janiópolis",
+		  "radiacao" : "4.90"
+		},
+		"2957" : {
+		  "nome" : "Japira",
+		  "radiacao" : "5.03"
+		},
+		"2958" : {
+		  "nome" : "Japurá",
+		  "radiacao" : "5.02"
+		},
+		"2959" : {
+		  "nome" : "Jardim Alegre",
+		  "radiacao" : "4.88"
+		},
+		"2960" : {
+		  "nome" : "Jardim Olinda",
+		  "radiacao" : "5.07"
+		},
+		"2961" : {
+		  "nome" : "Jataizinho",
+		  "radiacao" : "4.99"
+		},
+		"2962" : {
+		  "nome" : "Jesuítas",
+		  "radiacao" : "5.24"
+		},
+		"2963" : {
+		  "nome" : "Joaquim Távora",
+		  "radiacao" : "4.96"
+		},
+		"2964" : {
+		  "nome" : "Jundiaí do Sul",
+		  "radiacao" : "4.95"
+		},
+		"2965" : {
+		  "nome" : "Juranda",
+		  "radiacao" : "4.86"
+		},
+		"2966" : {
+		  "nome" : "Jussara",
+		  "radiacao" : "5.01"
+		},
+		"2967" : {
+		  "nome" : "Kaloré",
+		  "radiacao" : "4.94"
+		},
+		"2968" : {
+		  "nome" : "Lapa",
+		  "radiacao" : "4.27"
+		},
+		"2969" : {
+		  "nome" : "Laranjal",
+		  "radiacao" : "4.86"
+		},
+		"2970" : {
+		  "nome" : "Laranjeiras do Sul",
+		  "radiacao" : "4.74"
+		},
+		"2971" : {
+		  "nome" : "Leópolis",
+		  "radiacao" : "5.02"
+		},
+		"2972" : {
+		  "nome" : "Lidianópolis",
+		  "radiacao" : "4.89"
+		},
+		"2973" : {
+		  "nome" : "Lindoeste",
+		  "radiacao" : "5,10"
+		},
+		"2974" : {
+		  "nome" : "Loanda",
+		  "radiacao" : "5.37"
+		},
+		"2975" : {
+		  "nome" : "Lobato",
+		  "radiacao" : "5.02"
+		},
+		"2976" : {
+		  "nome" : "Londrina",
+		  "radiacao" : "4.97"
+		},
+		"2977" : {
+		  "nome" : "Luiziana",
+		  "radiacao" : "4.86"
+		},
+		"2978" : {
+		  "nome" : "Lunardelli",
+		  "radiacao" : "4.89"
+		},
+		"2979" : {
+		  "nome" : "Lupionópolis",
+		  "radiacao" : "5.09"
+		},
+		"2980" : {
+		  "nome" : "Mallet",
+		  "radiacao" : "4.81"
+		},
+		"2981" : {
+		  "nome" : "Mamborê",
+		  "radiacao" : "4.87"
+		},
+		"2982" : {
+		  "nome" : "Mandaguaçu",
+		  "radiacao" : "5.01"
+		},
+		"2983" : {
+		  "nome" : "Mandaguari",
+		  "radiacao" : "4.97"
+		},
+		"2984" : {
+		  "nome" : "Mandirituba",
+		  "radiacao" : "4.23"
+		},
+		"2985" : {
+		  "nome" : "Manfrinópolis",
+		  "radiacao" : "5.06"
+		},
+		"2986" : {
+		  "nome" : "Mangueirinha",
+		  "radiacao" : "4.75"
+		},
+		"2987" : {
+		  "nome" : "Manoel Ribas",
+		  "radiacao" : "4.84"
+		},
+		"2988" : {
+		  "nome" : "Marechal Cândido Rondon",
+		  "radiacao" : "5.23"
+		},
+		"2989" : {
+		  "nome" : "Maria Helena",
+		  "radiacao" : "4.98"
+		},
+		"2990" : {
+		  "nome" : "Marialva",
+		  "radiacao" : "4.97"
+		},
+		"2991" : {
+		  "nome" : "Marilândia do Sul",
+		  "radiacao" : "4.94"
+		},
+		"2992" : {
+		  "nome" : "Marilena",
+		  "radiacao" : "5.40"
+		},
+		"2993" : {
+		  "nome" : "Mariluz",
+		  "radiacao" : "5.26"
+		},
+		"2994" : {
+		  "nome" : "Maringá",
+		  "radiacao" : "4.97"
+		},
+		"2995" : {
+		  "nome" : "Mariópolis",
+		  "radiacao" : "5.04"
+		},
+		"2996" : {
+		  "nome" : "Maripá",
+		  "radiacao" : "5.23"
+		},
+		"2997" : {
+		  "nome" : "Marmeleiro",
+		  "radiacao" : "5.05"
+		},
+		"2998" : {
+		  "nome" : "Marquinho",
+		  "radiacao" : "4.78"
+		},
+		"2999" : {
+		  "nome" : "Marumbi",
+		  "radiacao" : "4.94"
+		},
+		"3000" : {
+		  "nome" : "Matelândia",
+		  "radiacao" : "5.32"
+		},
+		"3001" : {
+		  "nome" : "Matinhos",
+		  "radiacao" : "4.30"
+		},
+		"3002" : {
+		  "nome" : "Mato Rico",
+		  "radiacao" : "4.85"
+		},
+		"3003" : {
+		  "nome" : "Mauá da Serra",
+		  "radiacao" : "4.91"
+		},
+		"3004" : {
+		  "nome" : "Medianeira",
+		  "radiacao" : "4.77"
+		},
+		"3005" : {
+		  "nome" : "Mercedes",
+		  "radiacao" : "5.23"
+		},
+		"3006" : {
+		  "nome" : "Mirador",
+		  "radiacao" : "5.01"
+		},
+		"3007" : {
+		  "nome" : "Miraselva",
+		  "radiacao" : "5.08"
+		},
+		"3008" : {
+		  "nome" : "Missal",
+		  "radiacao" : "4.81"
+		},
+		"3009" : {
+		  "nome" : "Moreira Sales",
+		  "radiacao" : "5.26"
+		},
+		"3010" : {
+		  "nome" : "Morretes",
+		  "radiacao" : "4.94"
+		},
+		"3011" : {
+		  "nome" : "Munhoz de Melo",
+		  "radiacao" : "5.01"
+		},
+		"3012" : {
+		  "nome" : "Nossa Senhora das Graças",
+		  "radiacao" : "5.09"
+		},
+		"3013" : {
+		  "nome" : "Nova Aliança do Ivaí",
+		  "radiacao" : "5.03"
+		},
+		"3014" : {
+		  "nome" : "Nova América da Colina",
+		  "radiacao" : "4.99"
+		},
+		"3015" : {
+		  "nome" : "Nova Aurora",
+		  "radiacao" : "5.23"
+		},
+		"3016" : {
+		  "nome" : "Nova Cantu",
+		  "radiacao" : "4.85"
+		},
+		"3017" : {
+		  "nome" : "Nova Esperança",
+		  "radiacao" : "5.03"
+		},
+		"3018" : {
+		  "nome" : "Nova Esperança do Sudoeste",
+		  "radiacao" : "5.13"
+		},
+		"3019" : {
+		  "nome" : "Nova Fátima",
+		  "radiacao" : "4.98"
+		},
+		"3020" : {
+		  "nome" : "Nova Laranjeiras",
+		  "radiacao" : "4.75"
+		},
+		"3021" : {
+		  "nome" : "Nova Londrina",
+		  "radiacao" : "5.06"
+		},
+		"3022" : {
+		  "nome" : "Nova Olímpia",
+		  "radiacao" : "5.00"
+		},
+		"3023" : {
+		  "nome" : "Nova Prata do Iguaçu",
+		  "radiacao" : "5.13"
+		},
+		"3024" : {
+		  "nome" : "Nova Santa Bárbara",
+		  "radiacao" : "4.96"
+		},
+		"3025" : {
+		  "nome" : "Nova Santa Rosa",
+		  "radiacao" : "5.23"
+		},
+		"3026" : {
+		  "nome" : "Nova Tebas",
+		  "radiacao" : "4.87"
+		},
+		"3027" : {
+		  "nome" : "Novo Itacolomi",
+		  "radiacao" : "4.95"
+		},
+		"3028" : {
+		  "nome" : "Ortigueira",
+		  "radiacao" : "5.12"
+		},
+		"3029" : {
+		  "nome" : "Ourizona",
+		  "radiacao" : "5.01"
+		},
+		"3030" : {
+		  "nome" : "Ouro Verde do Oeste",
+		  "radiacao" : "5.21"
+		},
+		"3031" : {
+		  "nome" : "Paiçandu",
+		  "radiacao" : "4.99"
+		},
+		"3032" : {
+		  "nome" : "Palmas",
+		  "radiacao" : "4.99"
+		},
+		"3033" : {
+		  "nome" : "Palmeira",
+		  "radiacao" : "4.94"
+		},
+		"3034" : {
+		  "nome" : "Palmital",
+		  "radiacao" : "4.85"
+		},
+		"3035" : {
+		  "nome" : "Palotina",
+		  "radiacao" : "5.24"
+		},
+		"3036" : {
+		  "nome" : "Paraíso do Norte",
+		  "radiacao" : "5.02"
+		},
+		"3037" : {
+		  "nome" : "Paranacity",
+		  "radiacao" : "5.05"
+		},
+		"3038" : {
+		  "nome" : "Paranaguá",
+		  "radiacao" : "4.35"
+		},
+		"3039" : {
+		  "nome" : "Paranapoema",
+		  "radiacao" : "5.06"
+		},
+		"3040" : {
+		  "nome" : "Paranavaí",
+		  "radiacao" : "5.04"
+		},
+		"3041" : {
+		  "nome" : "Pato Bragado",
+		  "radiacao" : "5.23"
+		},
+		"3042" : {
+		  "nome" : "Pato Branco",
+		  "radiacao" : "5.05"
+		},
+		"3043" : {
+		  "nome" : "Paula Freitas",
+		  "radiacao" : "4.76"
+		},
+		"3044" : {
+		  "nome" : "Paulo Frontin",
+		  "radiacao" : "4.76"
+		},
+		"3045" : {
+		  "nome" : "Peabiru",
+		  "radiacao" : "5.00"
+		},
+		"3046" : {
+		  "nome" : "Perobal",
+		  "radiacao" : "4.97"
+		},
+		"3047" : {
+		  "nome" : "Pérola",
+		  "radiacao" : "4.97"
+		},
+		"3048" : {
+		  "nome" : "Pérola d`Oeste",
+		  "radiacao" : "5.14"
+		},
+		"3049" : {
+		  "nome" : "Piên",
+		  "radiacao" : "4.79"
+		},
+		"3050" : {
+		  "nome" : "Pinhais",
+		  "radiacao" : "4.24"
+		},
+		"3051" : {
+		  "nome" : "Pinhal de São Bento",
+		  "radiacao" : "5.08"
+		},
+		"3052" : {
+		  "nome" : "Pinhalão",
+		  "radiacao" : "4.93"
+		},
+		"3053" : {
+		  "nome" : "Pinhão",
+		  "radiacao" : "4.68"
+		},
+		"3054" : {
+		  "nome" : "Piraí do Sul",
+		  "radiacao" : "4.65"
+		},
+		"3055" : {
+		  "nome" : "Piraquara",
+		  "radiacao" : "4.23"
+		},
+		"3056" : {
+		  "nome" : "Pitanga",
+		  "radiacao" : "4.79"
+		},
+		"3057" : {
+		  "nome" : "Pitangueiras",
+		  "radiacao" : "5.00"
+		},
+		"3058" : {
+		  "nome" : "Planaltina do Paraná",
+		  "radiacao" : "5.03"
+		},
+		"3059" : {
+		  "nome" : "Planalto",
+		  "radiacao" : "5.13"
+		},
+		"3060" : {
+		  "nome" : "Ponta Grossa",
+		  "radiacao" : "5.00"
+		},
+		"3061" : {
+		  "nome" : "Pontal do Paraná",
+		  "radiacao" : "4.32"
+		},
+		"3062" : {
+		  "nome" : "Porecatu",
+		  "radiacao" : "5.09"
+		},
+		"3063" : {
+		  "nome" : "Porto Amazonas",
+		  "radiacao" : "4.31"
+		},
+		"3064" : {
+		  "nome" : "Porto Barreiro",
+		  "radiacao" : "4.75"
+		},
+		"3065" : {
+		  "nome" : "Porto Rico",
+		  "radiacao" : "5.39"
+		},
+		"3066" : {
+		  "nome" : "Porto Vitória",
+		  "radiacao" : "4.81"
+		},
+		"3067" : {
+		  "nome" : "Prado Ferreira",
+		  "radiacao" : "5.02"
+		},
+		"3068" : {
+		  "nome" : "Pranchita",
+		  "radiacao" : "5.08"
+		},
+		"3069" : {
+		  "nome" : "Presidente Castelo Branco",
+		  "radiacao" : "5.01"
+		},
+		"3070" : {
+		  "nome" : "Primeiro de Maio",
+		  "radiacao" : "5.08"
+		},
+		"3071" : {
+		  "nome" : "Prudentópolis",
+		  "radiacao" : "4,98"
+		},
+		"3072" : {
+		  "nome" : "Quarto Centenário",
+		  "radiacao" : "5.24"
+		},
+		"3073" : {
+		  "nome" : "Quatiguá",
+		  "radiacao" : "4.96"
+		},
+		"3074" : {
+		  "nome" : "Quatro Barras",
+		  "radiacao" : "4.93"
+		},
+		"3075" : {
+		  "nome" : "Quatro Pontes",
+		  "radiacao" : "5.22"
+		},
+		"3076" : {
+		  "nome" : "Quedas do Iguaçu",
+		  "radiacao" : "4.75"
+		},
+		"3077" : {
+		  "nome" : "Querência do Norte",
+		  "radiacao" : "5.00"
+		},
+		"3078" : {
+		  "nome" : "Quinta do Sol",
+		  "radiacao" : "5.00"
+		},
+		"3079" : {
+		  "nome" : "Quitandinha",
+		  "radiacao" : "4.24"
+		},
+		"3080" : {
+		  "nome" : "Ramilândia",
+		  "radiacao" : "4.80"
+		},
+		"3081" : {
+		  "nome" : "Rancho Alegre",
+		  "radiacao" : "4.95"
+		},
+		"3082" : {
+		  "nome" : "Rancho Alegre d`Oeste",
+		  "radiacao" : "4.88"
+		},
+		"3083" : {
+		  "nome" : "Realeza",
+		  "radiacao" : "5.14"
+		},
+		"3084" : {
+		  "nome" : "Rebouças",
+		  "radiacao" : "4.38"
+		},
+		"3085" : {
+		  "nome" : "Renascença",
+		  "radiacao" : "5.06"
+		},
+		"3086" : {
+		  "nome" : "Reserva",
+		  "radiacao" : "5.11"
+		},
+		"3087" : {
+		  "nome" : "Reserva do Iguaçu",
+		  "radiacao" : "4.72"
+		},
+		"3088" : {
+		  "nome" : "Ribeirão Claro",
+		  "radiacao" : "4.99"
+		},
+		"3089" : {
+		  "nome" : "Ribeirão do Pinhal",
+		  "radiacao" : "4.96"
+		},
+		"3090" : {
+		  "nome" : "Rio Azul",
+		  "radiacao" : "4.85"
+		},
+		"3091" : {
+		  "nome" : "Rio Bom",
+		  "radiacao" : "4.95"
+		},
+		"3092" : {
+		  "nome" : "Rio Bonito do Iguaçu",
+		  "radiacao" : "4.74"
+		},
+		"3093" : {
+		  "nome" : "Rio Branco do Ivaí",
+		  "radiacao" : "4.85"
+		},
+		"3094" : {
+		  "nome" : "Rio Branco do Sul",
+		  "radiacao" : "4.28"
+		},
+		"3095" : {
+		  "nome" : "Rio Negro",
+		  "radiacao" : "4.80"
+		},
+		"3096" : {
+		  "nome" : "Rolândia",
+		  "radiacao" : "4.97"
+		},
+		"3097" : {
+		  "nome" : "Roncador",
+		  "radiacao" : "4.85"
+		},
+		"3098" : {
+		  "nome" : "Rondon",
+		  "radiacao" : "5.02"
+		},
+		"3099" : {
+		  "nome" : "Rosário do Ivaí",
+		  "radiacao" : "4.86"
+		},
+		"3100" : {
+		  "nome" : "Sabáudia",
+		  "radiacao" : "4.99"
+		},
+		"3101" : {
+		  "nome" : "Salgado Filho",
+		  "radiacao" : "5.02"
+		},
+		"3102" : {
+		  "nome" : "Salto do Itararé",
+		  "radiacao" : "4.94"
+		},
+		"3103" : {
+		  "nome" : "Salto do Lontra",
+		  "radiacao" : "5.14"
+		},
+		"3104" : {
+		  "nome" : "Santa Amélia",
+		  "radiacao" : "4.99"
+		},
+		"3105" : {
+		  "nome" : "Santa Cecília do Pavão",
+		  "radiacao" : "4.97"
+		},
+		"3106" : {
+		  "nome" : "Santa Cruz de Monte Castelo",
+		  "radiacao" : "5.37"
+		},
+		"3107" : {
+		  "nome" : "Santa Fé",
+		  "radiacao" : "5.02"
+		},
+		"3108" : {
+		  "nome" : "Santa Helena",
+		  "radiacao" : "5.24"
+		},
+		"3109" : {
+		  "nome" : "Santa Inês",
+		  "radiacao" : "5.10"
+		},
+		"3110" : {
+		  "nome" : "Santa Isabel do Ivaí",
+		  "radiacao" : "5.01"
+		},
+		"3111" : {
+		  "nome" : "Santa Izabel do Oeste",
+		  "radiacao" : "5.14"
+		},
+		"3112" : {
+		  "nome" : "Santa Lúcia",
+		  "radiacao" : "5.11"
+		},
+		"3113" : {
+		  "nome" : "Santa Maria do Oeste",
+		  "radiacao" : "4.80"
+		},
+		"3114" : {
+		  "nome" : "Santa Mariana",
+		  "radiacao" : "5.00"
+		},
+		"3115" : {
+		  "nome" : "Santa Mônica",
+		  "radiacao" : "4.99"
+		},
+		"3116" : {
+		  "nome" : "Santa Tereza do Oeste",
+		  "radiacao" : "5.11"
+		},
+		"3117" : {
+		  "nome" : "Santa Terezinha de Itaipu",
+		  "radiacao" : "4.80"
+		},
+		"3118" : {
+		  "nome" : "Santana do Itararé",
+		  "radiacao" : "4.91"
+		},
+		"3119" : {
+		  "nome" : "Santo Antônio da Platina",
+		  "radiacao" : "4.99"
+		},
+		"3120" : {
+		  "nome" : "Santo Antônio do Caiuá",
+		  "radiacao" : "5.07"
+		},
+		"3121" : {
+		  "nome" : "Santo Antônio do Paraíso",
+		  "radiacao" : "4.97"
+		},
+		"3122" : {
+		  "nome" : "Santo Antônio do Sudoeste",
+		  "radiacao" : "5.07"
+		},
+		"3123" : {
+		  "nome" : "Santo Inácio",
+		  "radiacao" : "5.10"
+		},
+		"3124" : {
+		  "nome" : "São Carlos do Ivaí",
+		  "radiacao" : "5.02"
+		},
+		"3125" : {
+		  "nome" : "São Jerônimo da Serra",
+		  "radiacao" : "4.92"
+		},
+		"3126" : {
+		  "nome" : "São João",
+		  "radiacao" : "4.77"
+		},
+		"3127" : {
+		  "nome" : "São João do Caiuá",
+		  "radiacao" : "5.06"
+		},
+		"3128" : {
+		  "nome" : "São João do Ivaí",
+		  "radiacao" : "4.97"
+		},
+		"3129" : {
+		  "nome" : "São João do Triunfo",
+		  "radiacao" : "4.88"
+		},
+		"3130" : {
+		  "nome" : "São Jorge d`Oeste",
+		  "radiacao" : "4.77"
+		},
+		"3131" : {
+		  "nome" : "São Jorge do Ivaí",
+		  "radiacao" : "5.01"
+		},
+		"3132" : {
+		  "nome" : "São Jorge do Patrocínio",
+		  "radiacao" : "4.91"
+		},
+		"3133" : {
+		  "nome" : "São José da Boa Vista",
+		  "radiacao" : "4.88"
+		},
+		"3134" : {
+		  "nome" : "São José das Palmeiras",
+		  "radiacao" : "5.22"
+		},
+		"3135" : {
+		  "nome" : "São José dos Pinhais",
+		  "radiacao" : "4.23"
+		},
+		"3136" : {
+		  "nome" : "São Manoel do Paraná",
+		  "radiacao" : "5.02"
+		},
+		"3137" : {
+		  "nome" : "São Mateus do Sul",
+		  "radiacao" : "4.84"
+		},
+		"3138" : {
+		  "nome" : "São Miguel do Iguaçu",
+		  "radiacao" : "4.80"
+		},
+		"3139" : {
+		  "nome" : "São Pedro do Iguaçu",
+		  "radiacao" : "5.20"
+		},
+		"3140" : {
+		  "nome" : "São Pedro do Ivaí",
+		  "radiacao" : "4.97"
+		},
+		"3141" : {
+		  "nome" : "São Pedro do Paraná",
+		  "radiacao" : "5.39"
+		},
+		"3142" : {
+		  "nome" : "São Sebastião da Amoreira",
+		  "radiacao" : "4.97"
+		},
+		"3143" : {
+		  "nome" : "São Tomé",
+		  "radiacao" : "5.02"
+		},
+		"3144" : {
+		  "nome" : "Sapopema",
+		  "radiacao" : "4.87"
+		},
+		"3145" : {
+		  "nome" : "Sarandi",
+		  "radiacao" : "4.96"
+		},
+		"3146" : {
+		  "nome" : "Saudade do Iguaçu",
+		  "radiacao" : "4.76"
+		},
+		"3147" : {
+		  "nome" : "Sengés",
+		  "radiacao" : "4.74"
+		},
+		"3148" : {
+		  "nome" : "Serranópolis do Iguaçu",
+		  "radiacao" : "4.77"
+		},
+		"3149" : {
+		  "nome" : "Sertaneja",
+		  "radiacao" : "5.08"
+		},
+		"3150" : {
+		  "nome" : "Sertanópolis",
+		  "radiacao" : "5.01"
+		},
+		"3151" : {
+		  "nome" : "Siqueira Campos",
+		  "radiacao" : "4.93"
+		},
+		"3152" : {
+		  "nome" : "Sulina",
+		  "radiacao" : "4.76"
+		},
+		"3153" : {
+		  "nome" : "Tamarana",
+		  "radiacao" : "4.93"
+		},
+		"3154" : {
+		  "nome" : "Tamboara",
+		  "radiacao" : "5.03"
+		},
+		"3155" : {
+		  "nome" : "Tapejara",
+		  "radiacao" : "5.01"
+		},
+		"3156" : {
+		  "nome" : "Tapira",
+		  "radiacao" : "5.00"
+		},
+		"3157" : {
+		  "nome" : "Teixeira Soares",
+		  "radiacao" : "4.95"
+		},
+		"3158" : {
+		  "nome" : "Telêmaco Borba",
+		  "radiacao" : "5.13"
+		},
+		"3159" : {
+		  "nome" : "Terra Boa",
+		  "radiacao" : "5.01"
+		},
+		"3160" : {
+		  "nome" : "Terra Rica",
+		  "radiacao" : "5.07"
+		},
+		"3161" : {
+		  "nome" : "Terra Roxa",
+		  "radiacao" : "5.30"
+		},
+		"3162" : {
+		  "nome" : "Tibagi",
+		  "radiacao" : "5.12"
+		},
+		"3163" : {
+		  "nome" : "Tijucas do Sul",
+		  "radiacao" : "4.21"
+		},
+		"3164" : {
+		  "nome" : "Toledo",
+		  "radiacao" : "5.21"
+		},
+		"3165" : {
+		  "nome" : "Tomazina",
+		  "radiacao" : "4.94"
+		},
+		"3166" : {
+		  "nome" : "Três Barras do Paraná",
+		  "radiacao" : "5.11"
+		},
+		"3167" : {
+		  "nome" : "Tunas do Paraná",
+		  "radiacao" : "4.53"
+		},
+		"3168" : {
+		  "nome" : "Tuneiras do Oeste",
+		  "radiacao" : "5.00"
+		},
+		"3169" : {
+		  "nome" : "Tupãssi",
+		  "radiacao" : "5.23"
+		},
+		"3170" : {
+		  "nome" : "Turvo",
+		  "radiacao" : "4.69"
+		},
+		"3171" : {
+		  "nome" : "Ubiratã",
+		  "radiacao" : "4.86"
+		},
+		"3172" : {
+		  "nome" : "Umuarama",
+		  "radiacao" : "4.97"
+		},
+		"3173" : {
+		  "nome" : "União da Vitória",
+		  "radiacao" : "4.78"
+		},
+		"3174" : {
+		  "nome" : "Uniflor",
+		  "radiacao" : "5.06"
+		},
+		"3175" : {
+		  "nome" : "Uraí",
+		  "radiacao" : "5.01"
+		},
+		"3176" : {
+		  "nome" : "Ventania",
+		  "radiacao" : "5.12"
+		},
+		"3177" : {
+		  "nome" : "Vera Cruz do Oeste",
+		  "radiacao" : "5.13"
+		},
+		"3178" : {
+		  "nome" : "Verê",
+		  "radiacao" : "4.78"
+		},
+		"3179" : {
+		  "nome" : "Virmond",
+		  "radiacao" : "4.74"
+		},
+		"3180" : {
+		  "nome" : "Vitorino",
+		  "radiacao" : "5.04"
+		},
+		"3181" : {
+		  "nome" : "Wenceslau Braz",
+		  "radiacao" : "4.93"
+		},
+		"3182" : {
+		  "nome" : "Xambrê",
+		  "radiacao" : "4.97"
 		}
-		
-
-
-		
-
-
-
-	},
-	"SC": {
-		"01": {
-			"nome": "Rio do Sul",
-			"radiacao":  "3"
+	  },
+	  "RS" : {
+		"3850" : {
+		  "nome" : "Aceguá",
+		  "radiacao" : "4.73"
 		},
-		"02": {
-			"nome": "Blumenau",
-			"radiacao":  "2"
-		}
-	},
-	"RS": {
-		"01": {
-			"nome": "Porto Alegre",
-			"radiacao":  "1"
+		"3851" : {
+		  "nome" : "Água Santa",
+		  "radiacao" : "4.57"
 		},
-		"02": {
-			"nome": "Cambará",
-			"radiacao":  "0"
+		"3852" : {
+		  "nome" : "Agudo",
+		  "radiacao" : "4.84"
+		},
+		"3853" : {
+		  "nome" : "Ajuricaba",
+		  "radiacao" : "4.63"
+		},
+		"3854" : {
+		  "nome" : "Alecrim",
+		  "radiacao" : "4.66"
+		},
+		"3855" : {
+		  "nome" : "Alegrete",
+		  "radiacao" : "4.98"
+		},
+		"3856" : {
+		  "nome" : "Alegria",
+		  "radiacao" : "4.68"
+		},
+		"3857" : {
+		  "nome" : "Almirante Tamandaré do Sul",
+		  "radiacao" : "4.60"
+		},
+		"3858" : {
+		  "nome" : "Alpestre",
+		  "radiacao" : "4.65"
+		},
+		"3859" : {
+		  "nome" : "Alto Alegre",
+		  "radiacao" : "4.59"
+		},
+		"3860" : {
+		  "nome" : "Alto Feliz",
+		  "radiacao" : "4.75"
+		},
+		"3861" : {
+		  "nome" : "Alvorada",
+		  "radiacao" : "4.79"
+		},
+		"3862" : {
+		  "nome" : "Amaral Ferrador",
+		  "radiacao" : "4.72"
+		},
+		"3863" : {
+		  "nome" : "Ametista do Sul",
+		  "radiacao" : "4.66"
+		},
+		"3864" : {
+		  "nome" : "André da Rocha",
+		  "radiacao" : "4.45"
+		},
+		"3865" : {
+		  "nome" : "Anta Gorda",
+		  "radiacao" : "4.50"
+		},
+		"3866" : {
+		  "nome" : "Antônio Prado",
+		  "radiacao" : "4.45"
+		},
+		"3867" : {
+		  "nome" : "Arambaré",
+		  "radiacao" : "4.76"
+		},
+		"3868" : {
+		  "nome" : "Araricá",
+		  "radiacao" : "4.29"
+		},
+		"3869" : {
+		  "nome" : "Aratiba",
+		  "radiacao" : "4.61"
+		},
+		"3870" : {
+		  "nome" : "Arroio do Meio",
+		  "radiacao" : "4.77"
+		},
+		"3871" : {
+		  "nome" : "Arroio do Padre",
+		  "radiacao" : "4.34"
+		},
+		"3872" : {
+		  "nome" : "Arroio do Sal",
+		  "radiacao" : "4.26"
+		},
+		"3873" : {
+		  "nome" : "Arroio do Tigre",
+		  "radiacao" : "4.87"
+		},
+		"3874" : {
+		  "nome" : "Arroio dos Ratos",
+		  "radiacao" : "4.75"
+		},
+		"3875" : {
+		  "nome" : "Arroio Grande",
+		  "radiacao" : "4.61"
+		},
+		"3876" : {
+		  "nome" : "Arvorezinha",
+		  "radiacao" : "4.53"
+		},
+		"3877" : {
+		  "nome" : "Augusto Pestana",
+		  "radiacao" : "4.64"
+		},
+		"3878" : {
+		  "nome" : "Áurea",
+		  "radiacao" : "4.58"
+		},
+		"3879" : {
+		  "nome" : "Bagé",
+		  "radiacao" : "4.72"
+		},
+		"3880" : {
+		  "nome" : "Balneário Pinhal",
+		  "radiacao" : "4.75"
+		},
+		"3881" : {
+		  "nome" : "Barão",
+		  "radiacao" : "4.75"
+		},
+		"3882" : {
+		  "nome" : "Barão de Cotegipe",
+		  "radiacao" : "4.59"
+		},
+		"3883" : {
+		  "nome" : "Barão do Triunfo",
+		  "radiacao" : "4.73"
+		},
+		"3884" : {
+		  "nome" : "Barra do Guarita",
+		  "radiacao" : "4.65"
+		},
+		"3885" : {
+		  "nome" : "Barra do Quaraí",
+		  "radiacao" : "4.82"
+		},
+		"3886" : {
+		  "nome" : "Barra do Ribeiro",
+		  "radiacao" : "4.77"
+		},
+		"3887" : {
+		  "nome" : "Barra do Rio Azul",
+		  "radiacao" : "4.61"
+		},
+		"3888" : {
+		  "nome" : "Barra Funda",
+		  "radiacao" : "4.66"
+		},
+		"3889" : {
+		  "nome" : "Barracão",
+		  "radiacao" : "4.96"
+		},
+		"3890" : {
+		  "nome" : "Barros Cassal",
+		  "radiacao" : "4.53"
+		},
+		"3891" : {
+		  "nome" : "Benjamin Constant do Sul",
+		  "radiacao" : "4.61"
+		},
+		"3892" : {
+		  "nome" : "Bento Gonçalves",
+		  "radiacao" : "4.81"
+		},
+		"3893" : {
+		  "nome" : "Boa Vista das Missões",
+		  "radiacao" : "4.65"
+		},
+		"3894" : {
+		  "nome" : "Boa Vista do Buricá",
+		  "radiacao" : "4.68"
+		},
+		"3895" : {
+		  "nome" : "Boa Vista do Cadeado",
+		  "radiacao" : "4.63"
+		},
+		"3896" : {
+		  "nome" : "Boa Vista do Incra",
+		  "radiacao" : "4.61"
+		},
+		"3897" : {
+		  "nome" : "Boa Vista do Sul",
+		  "radiacao" : "4.79"
+		},
+		"3898" : {
+		  "nome" : "Bom Jesus",
+		  "radiacao" : "4.23"
+		},
+		"3899" : {
+		  "nome" : "Bom Princípio",
+		  "radiacao" : "4.75"
+		},
+		"3900" : {
+		  "nome" : "Bom Progresso",
+		  "radiacao" : "4.66"
+		},
+		"3901" : {
+		  "nome" : "Bom Retiro do Sul",
+		  "radiacao" : "4.79"
+		},
+		"3902" : {
+		  "nome" : "Boqueirão do Leão",
+		  "radiacao" : "4.48"
+		},
+		"3903" : {
+		  "nome" : "Bossoroca",
+		  "radiacao" : "4.67"
+		},
+		"3904" : {
+		  "nome" : "Bozano",
+		  "radiacao" : "4.63"
+		},
+		"3905" : {
+		  "nome" : "Braga",
+		  "radiacao" : "4.67"
+		},
+		"3906" : {
+		  "nome" : "Brochier",
+		  "radiacao" : "4.77"
+		},
+		"3907" : {
+		  "nome" : "Butiá",
+		  "radiacao" : "4.78"
+		},
+		"3908" : {
+		  "nome" : "Caçapava do Sul",
+		  "radiacao" : "4.80"
+		},
+		"3909" : {
+		  "nome" : "Cacequi",
+		  "radiacao" : "4.63"
+		},
+		"3910" : {
+		  "nome" : "Cachoeira do Sul",
+		  "radiacao" : "4.79"
+		},
+		"3911" : {
+		  "nome" : "Cachoeirinha",
+		  "radiacao" : "4.79"
+		},
+		"3912" : {
+		  "nome" : "Cacique Doble",
+		  "radiacao" : "4.97"
+		},
+		"3913" : {
+		  "nome" : "Caibaté",
+		  "radiacao" : "4.66"
+		},
+		"3914" : {
+		  "nome" : "Caiçara",
+		  "radiacao" : "4.65"
+		},
+		"3915" : {
+		  "nome" : "Camaquã",
+		  "radiacao" : "4.71"
+		},
+		"3916" : {
+		  "nome" : "Camargo",
+		  "radiacao" : "4.57"
+		},
+		"3917" : {
+		  "nome" : "Cambará do Sul",
+		  "radiacao" : "4.30"
+		},
+		"3918" : {
+		  "nome" : "Campestre da Serra",
+		  "radiacao" : "4.45"
+		},
+		"3919" : {
+		  "nome" : "Campina das Missões",
+		  "radiacao" : "4.68"
+		},
+		"3920" : {
+		  "nome" : "Campinas do Sul",
+		  "radiacao" : "4.61"
+		},
+		"3921" : {
+		  "nome" : "Campo Bom",
+		  "radiacao" : "4.77"
+		},
+		"3922" : {
+		  "nome" : "Campo Novo",
+		  "radiacao" : "4.66"
+		},
+		"3923" : {
+		  "nome" : "Campos Borges",
+		  "radiacao" : "4.59"
+		},
+		"3924" : {
+		  "nome" : "Candelária",
+		  "radiacao" : "4.48"
+		},
+		"3925" : {
+		  "nome" : "Cândido Godói",
+		  "radiacao" : "4.68"
+		},
+		"3926" : {
+		  "nome" : "Candiota",
+		  "radiacao" : "4.62"
+		},
+		"3927" : {
+		  "nome" : "Canela",
+		  "radiacao" : "4.30"
+		},
+		"3928" : {
+		  "nome" : "Canguçu",
+		  "radiacao" : "4.38"
+		},
+		"3929" : {
+		  "nome" : "Canoas",
+		  "radiacao" : "4.79"
+		},
+		"3930" : {
+		  "nome" : "Canudos do Vale",
+		  "radiacao" : "4.47"
+		},
+		"3931" : {
+		  "nome" : "Capão Bonito do Sul",
+		  "radiacao" : "4.49"
+		},
+		"3932" : {
+		  "nome" : "Capão da Canoa",
+		  "radiacao" : "4.34"
+		},
+		"3933" : {
+		  "nome" : "Capão do Cipó",
+		  "radiacao" : "4.66"
+		},
+		"3934" : {
+		  "nome" : "Capão do Leão",
+		  "radiacao" : "4.35"
+		},
+		"3935" : {
+		  "nome" : "Capela de Santana",
+		  "radiacao" : "4.77"
+		},
+		"3936" : {
+		  "nome" : "Capitão",
+		  "radiacao" : "4.77"
+		},
+		"3937" : {
+		  "nome" : "Capivari do Sul",
+		  "radiacao" : "4.77"
+		},
+		"3938" : {
+		  "nome" : "Caraá",
+		  "radiacao" : "4.33"
+		},
+		"3939" : {
+		  "nome" : "Carazinho",
+		  "radiacao" : "4.59"
+		},
+		"3940" : {
+		  "nome" : "Carlos Barbosa",
+		  "radiacao" : "4.79"
+		},
+		"3941" : {
+		  "nome" : "Carlos Gomes",
+		  "radiacao" : "4.97"
+		},
+		"3942" : {
+		  "nome" : "Casca",
+		  "radiacao" : "4.47"
+		},
+		"3943" : {
+		  "nome" : "Caseiros",
+		  "radiacao" : "4.48"
+		},
+		"3944" : {
+		  "nome" : "Catuípe",
+		  "radiacao" : "4.64"
+		},
+		"3945" : {
+		  "nome" : "Caxias do Sul",
+		  "radiacao" : "4.79"
+		},
+		"3946" : {
+		  "nome" : "Centenário",
+		  "radiacao" : "4.58"
+		},
+		"3947" : {
+		  "nome" : "Cerrito",
+		  "radiacao" : "4.37"
+		},
+		"3948" : {
+		  "nome" : "Cerro Branco",
+		  "radiacao" : "4.48"
+		},
+		"3949" : {
+		  "nome" : "Cerro Grande",
+		  "radiacao" : "4.66"
+		},
+		"3950" : {
+		  "nome" : "Cerro Grande do Sul",
+		  "radiacao" : "4.69"
+		},
+		"3951" : {
+		  "nome" : "Cerro Largo",
+		  "radiacao" : "4.66"
+		},
+		"3952" : {
+		  "nome" : "Chapada",
+		  "radiacao" : "4.63"
+		},
+		"3953" : {
+		  "nome" : "Charqueadas",
+		  "radiacao" : "4.81"
+		},
+		"3954" : {
+		  "nome" : "Charrua",
+		  "radiacao" : "4.58"
+		},
+		"3955" : {
+		  "nome" : "Chiapeta",
+		  "radiacao" : "4.66"
+		},
+		"3956" : {
+		  "nome" : "Chuí",
+		  "radiacao" : "4.40"
+		},
+		"3957" : {
+		  "nome" : "Chuvisca",
+		  "radiacao" : "4.71"
+		},
+		"3958" : {
+		  "nome" : "Cidreira",
+		  "radiacao" : "4.75"
+		},
+		"3959" : {
+		  "nome" : "Ciríaco",
+		  "radiacao" : "4.49"
+		},
+		"3960" : {
+		  "nome" : "Colinas",
+		  "radiacao" : "4.78"
+		},
+		"3961" : {
+		  "nome" : "Colorado",
+		  "radiacao" : "4.59"
+		},
+		"3962" : {
+		  "nome" : "Condor",
+		  "radiacao" : "4.62"
+		},
+		"3963" : {
+		  "nome" : "Constantina",
+		  "radiacao" : "4.62"
+		},
+		"3964" : {
+		  "nome" : "Coqueiro Baixo",
+		  "radiacao" : "4.47"
+		},
+		"3965" : {
+		  "nome" : "Coqueiros do Sul",
+		  "radiacao" : "4.59"
+		},
+		"3966" : {
+		  "nome" : "Coronel Barros",
+		  "radiacao" : "4.64"
+		},
+		"3967" : {
+		  "nome" : "Coronel Bicaco",
+		  "radiacao" : "4.66"
+		},
+		"3968" : {
+		  "nome" : "Coronel Pilar",
+		  "radiacao" : "4.79"
+		},
+		"3969" : {
+		  "nome" : "Cotiporã",
+		  "radiacao" : "4.44"
+		},
+		"3970" : {
+		  "nome" : "Coxilha",
+		  "radiacao" : "4.58"
+		},
+		"3971" : {
+		  "nome" : "Crissiumal",
+		  "radiacao" : "4.67"
+		},
+		"3972" : {
+		  "nome" : "Cristal",
+		  "radiacao" : "4.37"
+		},
+		"3973" : {
+		  "nome" : "Cristal do Sul",
+		  "radiacao" : "4.66"
+		},
+		"3974" : {
+		  "nome" : "Cruz Alta",
+		  "radiacao" : "4.62"
+		},
+		"3975" : {
+		  "nome" : "Cruzaltense",
+		  "radiacao" : "4.61"
+		},
+		"3976" : {
+		  "nome" : "Cruzeiro do Sul",
+		  "radiacao" : "4.77"
+		},
+		"3977" : {
+		  "nome" : "David Canabarro",
+		  "radiacao" : "4.47"
+		},
+		"3978" : {
+		  "nome" : "Derrubadas",
+		  "radiacao" : "4.64"
+		},
+		"3979" : {
+		  "nome" : "Dezesseis de Novembro",
+		  "radiacao" : "4.69"
+		},
+		"3980" : {
+		  "nome" : "Dilermando de Aguiar",
+		  "radiacao" : "4.61"
+		},
+		"3981" : {
+		  "nome" : "Dois Irmãos",
+		  "radiacao" : "4.76"
+		},
+		"3982" : {
+		  "nome" : "Dois Irmãos das Missões",
+		  "radiacao" : "4.66"
+		},
+		"3983" : {
+		  "nome" : "Dois Lajeados",
+		  "radiacao" : "4.44"
+		},
+		"3984" : {
+		  "nome" : "Dom Feliciano",
+		  "radiacao" : "4.73"
+		},
+		"3985" : {
+		  "nome" : "Dom Pedrito",
+		  "radiacao" : "4.84"
+		},
+		"3986" : {
+		  "nome" : "Dom Pedro de Alcântara",
+		  "radiacao" : "4.22"
+		},
+		"3987" : {
+		  "nome" : "Dona Francisca",
+		  "radiacao" : "4.84"
+		},
+		"3988" : {
+		  "nome" : "Doutor Maurício Cardoso",
+		  "radiacao" : "4.66"
+		},
+		"3989" : {
+		  "nome" : "Doutor Ricardo",
+		  "radiacao" : "4.78"
+		},
+		"3990" : {
+		  "nome" : "Eldorado do Sul",
+		  "radiacao" : "4.82"
+		},
+		"3991" : {
+		  "nome" : "Encantado",
+		  "radiacao" : "4.78"
+		},
+		"3992" : {
+		  "nome" : "Encruzilhada do Sul",
+		  "radiacao" : "4.78"
+		},
+		"3993" : {
+		  "nome" : "Engenho Velho",
+		  "radiacao" : "4.62"
+		},
+		"3994" : {
+		  "nome" : "Entre Rios do Sul",
+		  "radiacao" : "4.60"
+		},
+		"3995" : {
+		  "nome" : "Entre-Ijuís",
+		  "radiacao" : "4.65"
+		},
+		"3996" : {
+		  "nome" : "Erebango",
+		  "radiacao" : "4.59"
+		},
+		"3997" : {
+		  "nome" : "Erechim",
+		  "radiacao" : "4.59"
+		},
+		"3998" : {
+		  "nome" : "Ernestina",
+		  "radiacao" : "4.58"
+		},
+		"3999" : {
+		  "nome" : "Erval Grande",
+		  "radiacao" : "4.60"
+		},
+		"4000" : {
+		  "nome" : "Erval Seco",
+		  "radiacao" : "4.66"
+		},
+		"4001" : {
+		  "nome" : "Esmeralda",
+		  "radiacao" : "4.49"
+		},
+		"4002" : {
+		  "nome" : "Esperança do Sul",
+		  "radiacao" : "4.65"
+		},
+		"4003" : {
+		  "nome" : "Espumoso",
+		  "radiacao" : "4.59"
+		},
+		"4004" : {
+		  "nome" : "Estação",
+		  "radiacao" : "4.59"
+		},
+		"4005" : {
+		  "nome" : "Estância Velha",
+		  "radiacao" : "4.77"
+		},
+		"4006" : {
+		  "nome" : "Esteio",
+		  "radiacao" : "4.79"
+		},
+		"4007" : {
+		  "nome" : "Estrela",
+		  "radiacao" : "4.77"
+		},
+		"4008" : {
+		  "nome" : "Estrela Velha",
+		  "radiacao" : "4.88"
+		},
+		"4009" : {
+		  "nome" : "Eugênio de Castro",
+		  "radiacao" : "4.65"
+		},
+		"4010" : {
+		  "nome" : "Fagundes Varela",
+		  "radiacao" : "4.65"
+		},
+		"4011" : {
+		  "nome" : "Farroupilha",
+		  "radiacao" : "4.79"
+		},
+		"4012" : {
+		  "nome" : "Faxinal do Soturno",
+		  "radiacao" : "4.84"
+		},
+		"4013" : {
+		  "nome" : "Faxinalzinho",
+		  "radiacao" : "4.61"
+		},
+		"4014" : {
+		  "nome" : "Fazenda Vilanova",
+		  "radiacao" : "4.80"
+		},
+		"4015" : {
+		  "nome" : "Feliz",
+		  "radiacao" : "4.75"
+		},
+		"4016" : {
+		  "nome" : "Flores da Cunha",
+		  "radiacao" : "4.81"
+		},
+		"4017" : {
+		  "nome" : "Floriano Peixoto",
+		  "radiacao" : "4.58"
+		},
+		"4018" : {
+		  "nome" : "Fontoura Xavier",
+		  "radiacao" : "4.52"
+		},
+		"4019" : {
+		  "nome" : "Formigueiro",
+		  "radiacao" : "4.87"
+		},
+		"4020" : {
+		  "nome" : "Forquetinha",
+		  "radiacao" : "4.46"
+		},
+		"4021" : {
+		  "nome" : "Fortaleza dos Valos",
+		  "radiacao" : "4.61"
+		},
+		"4022" : {
+		  "nome" : "Frederico Westphalen",
+		  "radiacao" : "4.65"
+		},
+		"4023" : {
+		  "nome" : "Garibaldi",
+		  "radiacao" : "4.81"
+		},
+		"4024" : {
+		  "nome" : "Garruchos",
+		  "radiacao" : "4.70"
+		},
+		"4025" : {
+		  "nome" : "Gaurama",
+		  "radiacao" : "4.59"
+		},
+		"4026" : {
+		  "nome" : "General Câmara",
+		  "radiacao" : "4.81"
+		},
+		"4027" : {
+		  "nome" : "Gentil",
+		  "radiacao" : "4.55"
+		},
+		"4028" : {
+		  "nome" : "Getúlio Vargas",
+		  "radiacao" : ""
+		},
+		"4029" : {
+		  "nome" : "Giruá",
+		  "radiacao" : "4.66"
+		},
+		"4030" : {
+		  "nome" : "Glorinha",
+		  "radiacao" : "4.36"
+		},
+		"4031" : {
+		  "nome" : "Gramado",
+		  "radiacao" : "4.30"
+		},
+		"4032" : {
+		  "nome" : "Gramado dos Loureiros",
+		  "radiacao" : "4.61"
+		},
+		"4033" : {
+		  "nome" : "Gramado Xavier",
+		  "radiacao" : "4.48"
+		},
+		"4034" : {
+		  "nome" : "Gravataí",
+		  "radiacao" : "4.79"
+		},
+		"4035" : {
+		  "nome" : "Guabiju",
+		  "radiacao" : "4.46"
+		},
+		"4036" : {
+		  "nome" : "Guaíba",
+		  "radiacao" : "4.78"
+		},
+		"4037" : {
+		  "nome" : "Guaporé",
+		  "radiacao" : "4.45"
+		},
+		"4038" : {
+		  "nome" : "Guarani das Missões",
+		  "radiacao" : "4.66"
+		},
+		"4039" : {
+		  "nome" : "Harmonia",
+		  "radiacao" : "4.76"
+		},
+		"4040" : {
+		  "nome" : "Herval",
+		  "radiacao" : "4.68"
+		},
+		"4041" : {
+		  "nome" : "Herveiras",
+		  "radiacao" : "4.49"
+		},
+		"4042" : {
+		  "nome" : "Horizontina",
+		  "radiacao" : "4.67"
+		},
+		"4043" : {
+		  "nome" : "Hulha Negra",
+		  "radiacao" : "4.71"
+		},
+		"4044" : {
+		  "nome" : "Humaitá",
+		  "radiacao" : "4.67"
+		},
+		"4045" : {
+		  "nome" : "Ibarama",
+		  "radiacao" : "4.86"
+		},
+		"4046" : {
+		  "nome" : "Ibiaçá",
+		  "radiacao" : "4.51"
+		},
+		"4047" : {
+		  "nome" : "Ibiraiaras",
+		  "radiacao" : "4.47"
+		},
+		"4048" : {
+		  "nome" : "Ibirapuitã",
+		  "radiacao" : "4.58"
+		},
+		"4049" : {
+		  "nome" : "Ibirubá",
+		  "radiacao" : "4.61"
+		},
+		"4050" : {
+		  "nome" : "Igrejinha",
+		  "radiacao" : "4.30"
+		},
+		"4051" : {
+		  "nome" : "Ijuí",
+		  "radiacao" : "4.64"
+		},
+		"4052" : {
+		  "nome" : "Ilópolis",
+		  "radiacao" : "4.51"
+		},
+		"4053" : {
+		  "nome" : "Imbé",
+		  "radiacao" : "4.31"
+		},
+		"4054" : {
+		  "nome" : "Imigrante",
+		  "radiacao" : "4.78"
+		},
+		"4055" : {
+		  "nome" : "Independência",
+		  "radiacao" : "4.68"
+		},
+		"4056" : {
+		  "nome" : "Inhacorá",
+		  "radiacao" : "4.68"
+		},
+		"4057" : {
+		  "nome" : "Ipê",
+		  "radiacao" : "4.45"
+		},
+		"4058" : {
+		  "nome" : "Ipiranga do Sul",
+		  "radiacao" : "4.59"
+		},
+		"4059" : {
+		  "nome" : "Iraí",
+		  "radiacao" : "4.65"
+		},
+		"4060" : {
+		  "nome" : "Itaara",
+		  "radiacao" : "4.85"
+		},
+		"4061" : {
+		  "nome" : "Itacurubi",
+		  "radiacao" : "4.70"
+		},
+		"4062" : {
+		  "nome" : "Itapuca",
+		  "radiacao" : "4.54"
+		},
+		"4063" : {
+		  "nome" : "Itaqui",
+		  "radiacao" : "4.77"
+		},
+		"4064" : {
+		  "nome" : "Itati",
+		  "radiacao" : "4.18"
+		},
+		"4065" : {
+		  "nome" : "Itatiba do Sul",
+		  "radiacao" : "4.60"
+		},
+		"4066" : {
+		  "nome" : "Ivorá",
+		  "radiacao" : "4.85"
+		},
+		"4067" : {
+		  "nome" : "Ivoti",
+		  "radiacao" : "4.77"
+		},
+		"4068" : {
+		  "nome" : "Jaboticaba",
+		  "radiacao" : "4.66"
+		},
+		"4069" : {
+		  "nome" : "Jacuizinho",
+		  "radiacao" : "4.89"
+		},
+		"4070" : {
+		  "nome" : "Jacutinga",
+		  "radiacao" : "4.60"
+		},
+		"4071" : {
+		  "nome" : "Jaguarão",
+		  "radiacao" : "4.40"
+		},
+		"4072" : {
+		  "nome" : "Jaguari",
+		  "radiacao" : "4.62"
+		},
+		"4073" : {
+		  "nome" : "Jaquirana",
+		  "radiacao" : "4.28"
+		},
+		"4074" : {
+		  "nome" : "Jari",
+		  "radiacao" : "4.63"
+		},
+		"4075" : {
+		  "nome" : "Jóia",
+		  "radiacao" : "4.64"
+		},
+		"4076" : {
+		  "nome" : "Júlio de Castilhos",
+		  "radiacao" : "4.89"
+		},
+		"4077" : {
+		  "nome" : "Lagoa Bonita do Sul",
+		  "radiacao" : "4.84"
+		},
+		"4078" : {
+		  "nome" : "Lagoa dos Três Cantos",
+		  "radiacao" : "4.60"
+		},
+		"4079" : {
+		  "nome" : "Lagoa Vermelha",
+		  "radiacao" : "4.48"
+		},
+		"4080" : {
+		  "nome" : "Lagoão",
+		  "radiacao" : "4.55"
+		},
+		"4081" : {
+		  "nome" : "Lajeado",
+		  "radiacao" : "4.77"
+		},
+		"4082" : {
+		  "nome" : "Lajeado do Bugre",
+		  "radiacao" : "4.66"
+		},
+		"4083" : {
+		  "nome" : "Lavras do Sul",
+		  "radiacao" : "4.81"
+		},
+		"4084" : {
+		  "nome" : "Liberato Salzano",
+		  "radiacao" : "4.66"
+		},
+		"4085" : {
+		  "nome" : "Lindolfo Collor",
+		  "radiacao" : "4.78"
+		},
+		"4086" : {
+		  "nome" : "Linha Nova",
+		  "radiacao" : "4.78"
+		},
+		"4087" : {
+		  "nome" : "Maçambara",
+		  "radiacao" : "4.75"
+		},
+		"4088" : {
+		  "nome" : "Machadinho",
+		  "radiacao" : "4.99"
+		},
+		"4089" : {
+		  "nome" : "Mampituba",
+		  "radiacao" : "4.12"
+		},
+		"4090" : {
+		  "nome" : "Manoel Viana",
+		  "radiacao" : "4.71"
+		},
+		"4091" : {
+		  "nome" : "Maquiné",
+		  "radiacao" : "4.27"
+		},
+		"4092" : {
+		  "nome" : "Maratá",
+		  "radiacao" : "4.76"
+		},
+		"4093" : {
+		  "nome" : "Marau",
+		  "radiacao" : "4.56"
+		},
+		"4094" : {
+		  "nome" : "Marcelino Ramos",
+		  "radiacao" : "4.99"
+		},
+		"4095" : {
+		  "nome" : "Mariana Pimentel",
+		  "radiacao" : "4.74"
+		},
+		"4096" : {
+		  "nome" : "Mariano Moro",
+		  "radiacao" : "4.60"
+		},
+		"4097" : {
+		  "nome" : "Marques de Souza",
+		  "radiacao" : "4.46"
+		},
+		"4098" : {
+		  "nome" : "Mata",
+		  "radiacao" : "4.62"
+		},
+		"4099" : {
+		  "nome" : "Mato Castelhano",
+		  "radiacao" : "4.56"
+		},
+		"4100" : {
+		  "nome" : "Mato Leitão",
+		  "radiacao" : "4.44"
+		},
+		"4101" : {
+		  "nome" : "Mato Queimado",
+		  "radiacao" : "4.66"
+		},
+		"4102" : {
+		  "nome" : "Maximiliano de Almeida",
+		  "radiacao" : "5.09"
+		},
+		"4103" : {
+		  "nome" : "Minas do Leão",
+		  "radiacao" : "4.78"
+		},
+		"4104" : {
+		  "nome" : "Miraguaí",
+		  "radiacao" : "4.66"
+		},
+		"4105" : {
+		  "nome" : "Montauri",
+		  "radiacao" : "4.54"
+		},
+		"4106" : {
+		  "nome" : "Monte Alegre dos Campos",
+		  "radiacao" : "4.27"
+		},
+		"4107" : {
+		  "nome" : "Monte Belo do Sul",
+		  "radiacao" : "4.81"
+		},
+		"4108" : {
+		  "nome" : "Montenegro",
+		  "radiacao" : "4.78"
+		},
+		"4109" : {
+		  "nome" : "Mormaço",
+		  "radiacao" : "4.58"
+		},
+		"4110" : {
+		  "nome" : "Morrinhos do Sul",
+		  "radiacao" : "4.13"
+		},
+		"4111" : {
+		  "nome" : "Morro Redondo",
+		  "radiacao" : "4.35"
+		},
+		"4112" : {
+		  "nome" : "Morro Reuter",
+		  "radiacao" : "4.77"
+		},
+		"4113" : {
+		  "nome" : "Mostardas",
+		  "radiacao" : "4.70"
+		},
+		"4114" : {
+		  "nome" : "Muçum",
+		  "radiacao" : "4.79"
+		},
+		"4115" : {
+		  "nome" : "Muitos Capões",
+		  "radiacao" : "4.47"
+		},
+		"4116" : {
+		  "nome" : "Muliterno",
+		  "radiacao" : "4.49"
+		},
+		"4117" : {
+		  "nome" : "Não-Me-Toque",
+		  "radiacao" : "4.59"
+		},
+		"4118" : {
+		  "nome" : "Nicolau Vergueiro",
+		  "radiacao" : "4.58"
+		},
+		"4119" : {
+		  "nome" : "Nonoai",
+		  "radiacao" : "4.62"
+		},
+		"4120" : {
+		  "nome" : "Nova Alvorada",
+		  "radiacao" : "4.55"
+		},
+		"4121" : {
+		  "nome" : "Nova Araçá",
+		  "radiacao" : "4.46"
+		},
+		"4122" : {
+		  "nome" : "Nova Bassano",
+		  "radiacao" : "4.46"
+		},
+		"4123" : {
+		  "nome" : "Nova Boa Vista",
+		  "radiacao" : "4.61"
+		},
+		"4124" : {
+		  "nome" : "Nova Bréscia",
+		  "radiacao" : "4.47"
+		},
+		"4125" : {
+		  "nome" : "Nova Candelária",
+		  "radiacao" : "4.67"
+		},
+		"4126" : {
+		  "nome" : "Nova Esperança do Sul",
+		  "radiacao" : "4.63"
+		},
+		"4127" : {
+		  "nome" : "Nova Hartz",
+		  "radiacao" : "4.29"
+		},
+		"4128" : {
+		  "nome" : "Nova Pádua",
+		  "radiacao" : "4.81"
+		},
+		"4129" : {
+		  "nome" : "Nova Palma",
+		  "radiacao" : "4.85"
+		},
+		"4130" : {
+		  "nome" : "Nova Petrópolis",
+		  "radiacao" : "4.77"
+		},
+		"4131" : {
+		  "nome" : "Nova Prata",
+		  "radiacao" : "4.45"
+		},
+		"4132" : {
+		  "nome" : "Nova Ramada",
+		  "radiacao" : "4.64"
+		},
+		"4133" : {
+		  "nome" : "Nova Roma do Sul",
+		  "radiacao" : "4.44"
+		},
+		"4134" : {
+		  "nome" : "Nova Santa Rita",
+		  "radiacao" : "4.81"
+		},
+		"4135" : {
+		  "nome" : "Novo Barreiro",
+		  "radiacao" : "4.65"
+		},
+		"4136" : {
+		  "nome" : "Novo Cabrais",
+		  "radiacao" : "4.50"
+		},
+		"4137" : {
+		  "nome" : "Novo Hamburgo",
+		  "radiacao" : "4.77"
+		},
+		"4138" : {
+		  "nome" : "Novo Machado",
+		  "radiacao" : "4.66"
+		},
+		"4139" : {
+		  "nome" : "Novo Tiradentes",
+		  "radiacao" : "4.66"
+		},
+		"4140" : {
+		  "nome" : "Novo Xingu",
+		  "radiacao" : "4.66"
+		},
+		"4141" : {
+		  "nome" : "Osório",
+		  "radiacao" : "4.29"
+		},
+		"4142" : {
+		  "nome" : "Paim Filho",
+		  "radiacao" : "4.98"
+		},
+		"4143" : {
+		  "nome" : "Palmares do Sul",
+		  "radiacao" : "4.77"
+		},
+		"4144" : {
+		  "nome" : "Palmeira das Missões",
+		  "radiacao" : "4.65"
+		},
+		"4145" : {
+		  "nome" : "Palmitinho",
+		  "radiacao" : "4.66"
+		},
+		"4146" : {
+		  "nome" : "Panambi",
+		  "radiacao" : "4.63"
+		},
+		"4147" : {
+		  "nome" : "Pantano Grande",
+		  "radiacao" : "4.79"
+		},
+		"4148" : {
+		  "nome" : "Paraí",
+		  "radiacao" : "4.46"
+		},
+		"4149" : {
+		  "nome" : "Paraíso do Sul",
+		  "radiacao" : "4.84"
+		},
+		"4150" : {
+		  "nome" : "Pareci Novo",
+		  "radiacao" : "4.76"
+		},
+		"4151" : {
+		  "nome" : "Parobé",
+		  "radiacao" : "4.31"
+		},
+		"4152" : {
+		  "nome" : "Passa Sete",
+		  "radiacao" : "4.52"
+		},
+		"4153" : {
+		  "nome" : "Passo do Sobrado",
+		  "radiacao" : "4.47"
+		},
+		"4154" : {
+		  "nome" : "Passo Fundo",
+		  "radiacao" : "4.57"
+		},
+		"4155" : {
+		  "nome" : "Paulo Bento",
+		  "radiacao" : "4.59"
+		},
+		"4156" : {
+		  "nome" : "Paverama",
+		  "radiacao" : "4.79"
+		},
+		"4157" : {
+		  "nome" : "Pedras Altas",
+		  "radiacao" : "4.71"
+		},
+		"4158" : {
+		  "nome" : "Pedro Osório",
+		  "radiacao" : "4.38"
+		},
+		"4159" : {
+		  "nome" : "Pejuçara",
+		  "radiacao" : "4.63"
+		},
+		"4160" : {
+		  "nome" : "Pelotas",
+		  "radiacao" : "4.35"
+		},
+		"4161" : {
+		  "nome" : "Picada Café",
+		  "radiacao" : "4.77"
+		},
+		"4162" : {
+		  "nome" : "Pinhal",
+		  "radiacao" : "4.66"
+		},
+		"4163" : {
+		  "nome" : "Pinhal da Serra",
+		  "radiacao" : "4.94"
+		},
+		"4164" : {
+		  "nome" : "Pinhal Grande",
+		  "radiacao" : "4.87"
+		},
+		"4165" : {
+		  "nome" : "Pinheirinho do Vale",
+		  "radiacao" : "4.65"
+		},
+		"4166" : {
+		  "nome" : "Pinheiro Machado",
+		  "radiacao" : "4.70"
+		},
+		"4167" : {
+		  "nome" : "Pirapó",
+		  "radiacao" : "4.69"
+		},
+		"4168" : {
+		  "nome" : "Piratini",
+		  "radiacao" : "4.68"
+		},
+		"4169" : {
+		  "nome" : "Planalto",
+		  "radiacao" : "4.66"
+		},
+		"4170" : {
+		  "nome" : "Poço das Antas",
+		  "radiacao" : "4.77"
+		},
+		"4171" : {
+		  "nome" : "Pontão",
+		  "radiacao" : "4.59"
+		},
+		"4172" : {
+		  "nome" : "Ponte Preta",
+		  "radiacao" : "4.60"
+		},
+		"4173" : {
+		  "nome" : "Portão",
+		  "radiacao" : "4.78"
+		},
+		"4174" : {
+		  "nome" : "Porto Alegre",
+		  "radiacao" : "4.76"
+		},
+		"4175" : {
+		  "nome" : "Porto Lucena",
+		  "radiacao" : "4.69"
+		},
+		"4176" : {
+		  "nome" : "Porto Mauá",
+		  "radiacao" : "4.66"
+		},
+		"4177" : {
+		  "nome" : "Porto Vera Cruz",
+		  "radiacao" : "4.67"
+		},
+		"4178" : {
+		  "nome" : "Porto Xavier",
+		  "radiacao" : "4.70"
+		},
+		"4179" : {
+		  "nome" : "Pouso Novo",
+		  "radiacao" : "4.47"
+		},
+		"4180" : {
+		  "nome" : "Presidente Lucena",
+		  "radiacao" : "4.78"
+		},
+		"4181" : {
+		  "nome" : "Progresso",
+		  "radiacao" : "4.49"
+		},
+		"4182" : {
+		  "nome" : "Protásio Alves",
+		  "radiacao" : "4.45"
+		},
+		"4183" : {
+		  "nome" : "Putinga",
+		  "radiacao" : "4.48"
+		},
+		"4184" : {
+		  "nome" : "Quaraí",
+		  "radiacao" : "4.77"
+		},
+		"4185" : {
+		  "nome" : "Quatro Irmãos",
+		  "radiacao" : "4.59"
+		},
+		"4186" : {
+		  "nome" : "Quevedos",
+		  "radiacao" : "4.60"
+		},
+		"4187" : {
+		  "nome" : "Quinze de Novembro",
+		  "radiacao" : "4.62"
+		},
+		"4188" : {
+		  "nome" : "Redentora",
+		  "radiacao" : "4.66"
+		},
+		"4189" : {
+		  "nome" : "Relvado",
+		  "radiacao" : "4.46"
+		},
+		"4190" : {
+		  "nome" : "Restinga Seca",
+		  "radiacao" : "4.85"
+		},
+		"4191" : {
+		  "nome" : "Rio dos Índios",
+		  "radiacao" : "4.63"
+		},
+		"4192" : {
+		  "nome" : "Rio Grande",
+		  "radiacao" : "4.63"
+		},
+		"4193" : {
+		  "nome" : "Rio Pardo",
+		  "radiacao" : "4.51"
+		},
+		"4194" : {
+		  "nome" : "Riozinho",
+		  "radiacao" : "4,29"
+		},
+		"4195" : {
+		  "nome" : "Roca Sales",
+		  "radiacao" : "4.79"
+		},
+		"4196" : {
+		  "nome" : "Rodeio Bonito",
+		  "radiacao" : "4.66"
+		},
+		"4197" : {
+		  "nome" : "Rolador",
+		  "radiacao" : "4.67"
+		},
+		"4198" : {
+		  "nome" : "Rolante",
+		  "radiacao" : "4.31"
+		},
+		"4199" : {
+		  "nome" : "Ronda Alta",
+		  "radiacao" : "4.61"
+		},
+		"4200" : {
+		  "nome" : "Rondinha",
+		  "radiacao" : "4.62"
+		},
+		"4201" : {
+		  "nome" : "Roque Gonzales",
+		  "radiacao" : "4.69"
+		},
+		"4202" : {
+		  "nome" : "Rosário do Sul",
+		  "radiacao" : "4.86"
+		},
+		"4203" : {
+		  "nome" : "Sagrada Família",
+		  "radiacao" : "4.66"
+		},
+		"4204" : {
+		  "nome" : "Saldanha Marinho",
+		  "radiacao" : "4.61"
+		},
+		"4205" : {
+		  "nome" : "Salto do Jacuí",
+		  "radiacao" : "4.88"
+		},
+		"4206" : {
+		  "nome" : "Salvador das Missões",
+		  "radiacao" : "4.67"
+		},
+		"4207" : {
+		  "nome" : "Salvador do Sul",
+		  "radiacao" : "4.76"
+		},
+		"4208" : {
+		  "nome" : "Sananduva",
+		  "radiacao" : "4.96"
+		},
+		"4209" : {
+		  "nome" : "Santa Bárbara do Sul",
+		  "radiacao" : "4.62"
+		},
+		"4210" : {
+		  "nome" : "Santa Cecília do Sul",
+		  "radiacao" : "4.50"
+		},
+		"4211" : {
+		  "nome" : "Santa Clara do Sul",
+		  "radiacao" : "4.46"
+		},
+		"4212" : {
+		  "nome" : "Santa Cruz do Sul",
+		  "radiacao" : "4.47"
+		},
+		"4213" : {
+		  "nome" : "Santa Margarida do Sul",
+		  "radiacao" : "4.84"
+		},
+		"4214" : {
+		  "nome" : "Santa Maria",
+		  "radiacao" : "4.85"
+		},
+		"4215" : {
+		  "nome" : "Santa Maria do Herval",
+		  "radiacao" : "4.30"
+		},
+		"4216" : {
+		  "nome" : "Santa Rosa",
+		  "radiacao" : "4.68"
+		},
+		"4217" : {
+		  "nome" : "Santa Tereza",
+		  "radiacao" : "4.80"
+		},
+		"4218" : {
+		  "nome" : "Santa Vitória do Palmar",
+		  "radiacao" : "4.40"
+		},
+		"4219" : {
+		  "nome" : "Santana da Boa Vista",
+		  "radiacao" : "4.78"
+		},
+		"4220" : {
+		  "nome" : "Santana do Livramento",
+		  "radiacao" : "4.65"
+		},
+		"4221" : {
+		  "nome" : "Santiago",
+		  "radiacao" : "4.66"
+		},
+		"4222" : {
+		  "nome" : "Santo Ângelo",
+		  "radiacao" : "4.64"
+		},
+		"4223" : {
+		  "nome" : "Santo Antônio da Patrulha",
+		  "radiacao" : "4.37"
+		},
+		"4224" : {
+		  "nome" : "Santo Antônio das Missões",
+		  "radiacao" : "4.71"
+		},
+		"4225" : {
+		  "nome" : "Santo Antônio do Palma",
+		  "radiacao" : "4.54"
+		},
+		"4226" : {
+		  "nome" : "Santo Antônio do Planalto",
+		  "radiacao" : "4.59"
+		},
+		"4227" : {
+		  "nome" : "Santo Augusto",
+		  "radiacao" : "4.66"
+		},
+		"4228" : {
+		  "nome" : "Santo Cristo",
+		  "radiacao" : "4.67"
+		},
+		"4229" : {
+		  "nome" : "Santo Expedito do Sul",
+		  "radiacao" : "4.47"
+		},
+		"4230" : {
+		  "nome" : "São Borja",
+		  "radiacao" : "4.76"
+		},
+		"4231" : {
+		  "nome" : "São Domingos do Sul",
+		  "radiacao" : "4.47"
+		},
+		"4232" : {
+		  "nome" : "São Francisco de Assis",
+		  "radiacao" : "4.67"
+		},
+		"4233" : {
+		  "nome" : "São Francisco de Paula",
+		  "radiacao" : "4.30"
+		},
+		"4234" : {
+		  "nome" : "São Gabriel",
+		  "radiacao" : "4.85"
+		},
+		"4235" : {
+		  "nome" : "São Jerônimo",
+		  "radiacao" : "4.81"
+		},
+		"4236" : {
+		  "nome" : "São João da Urtiga",
+		  "radiacao" : "4.97"
+		},
+		"4237" : {
+		  "nome" : "São João do Polêsine",
+		  "radiacao" : "4.84"
+		},
+		"4238" : {
+		  "nome" : "São Jorge",
+		  "radiacao" : "4.46"
+		},
+		"4239" : {
+		  "nome" : "São José das Missões",
+		  "radiacao" : "4.65"
+		},
+		"4240" : {
+		  "nome" : "São José do Herval",
+		  "radiacao" : "4.47"
+		},
+		"4241" : {
+		  "nome" : "São José do Hortêncio",
+		  "radiacao" : "4.77"
+		},
+		"4242" : {
+		  "nome" : "São José do Inhacorá",
+		  "radiacao" : "4.68"
+		},
+		"4243" : {
+		  "nome" : "São José do Norte",
+		  "radiacao" : "4.41"
+		},
+		"4244" : {
+		  "nome" : "São José do Ouro",
+		  "radiacao" : "4.96"
+		},
+		"4245" : {
+		  "nome" : "São José do Sul",
+		  "radiacao" : "4.75"
+		},
+		"4246" : {
+		  "nome" : "São José dos Ausentes",
+		  "radiacao" : "4.21"
+		},
+		"4247" : {
+		  "nome" : "São Leopoldo",
+		  "radiacao" : "4.77"
+		},
+		"4248" : {
+		  "nome" : "São Lourenço do Sul",
+		  "radiacao" : "4.36"
+		},
+		"4249" : {
+		  "nome" : "São Luiz Gonzaga",
+		  "radiacao" : "4.67"
+		},
+		"4250" : {
+		  "nome" : "São Marcos",
+		  "radiacao" : "4.45"
+		},
+		"4251" : {
+		  "nome" : "São Martinho",
+		  "radiacao" : "4.66"
+		},
+		"4252" : {
+		  "nome" : "São Martinho da Serra",
+		  "radiacao" : "4.93"
+		},
+		"4253" : {
+		  "nome" : "São Miguel das Missões",
+		  "radiacao" : "4.65"
+		},
+		"4254" : {
+		  "nome" : "São Nicolau",
+		  "radiacao" : "4.70"
+		},
+		"4255" : {
+		  "nome" : "São Paulo das Missões",
+		  "radiacao" : "4.66"
+		},
+		"4256" : {
+		  "nome" : "São Pedro da Serra",
+		  "radiacao" : "4.76"
+		},
+		"4257" : {
+		  "nome" : "São Pedro das Missões",
+		  "radiacao" : "4.65"
+		},
+		"4258" : {
+		  "nome" : "São Pedro do Butiá",
+		  "radiacao" : "4.67"
+		},
+		"4259" : {
+		  "nome" : "São Pedro do Sul",
+		  "radiacao" : "4.60"
+		},
+		"4260" : {
+		  "nome" : "São Sebastião do Caí",
+		  "radiacao" : "4.77"
+		},
+		"4261" : {
+		  "nome" : "São Sepé",
+		  "radiacao" : "4.82"
+		},
+		"4262" : {
+		  "nome" : "São Valentim",
+		  "radiacao" : "4.60"
+		},
+		"4263" : {
+		  "nome" : "São Valentim do Sul",
+		  "radiacao" : "4.80"
+		},
+		"4264" : {
+		  "nome" : "São Valério do Sul",
+		  "radiacao" : "4.66"
+		},
+		"4265" : {
+		  "nome" : "São Vendelino",
+		  "radiacao" : "4.70"
+		},
+		"4266" : {
+		  "nome" : "São Vicente do Sul",
+		  "radiacao" : "4.63"
+		},
+		"4267" : {
+		  "nome" : "Sapiranga",
+		  "radiacao" : "4.70"
+		},
+		"4268" : {
+		  "nome" : "Sapucaia do Sul",
+		  "radiacao" : "4.79"
+		},
+		"4269" : {
+		  "nome" : "Sarandi",
+		  "radiacao" : "4.61"
+		},
+		"4270" : {
+		  "nome" : "Seberi",
+		  "radiacao" : "4.65"
+		},
+		"4271" : {
+		  "nome" : "Sede Nova",
+		  "radiacao" : "4.67"
+		},
+		"4272" : {
+		  "nome" : "Segredo",
+		  "radiacao" : "4.56"
+		},
+		"4273" : {
+		  "nome" : "Selbach",
+		  "radiacao" : "4.59"
+		},
+		"4274" : {
+		  "nome" : "Senador Salgado Filho",
+		  "radiacao" : "4.66"
+		},
+		"4275" : {
+		  "nome" : "Sentinela do Sul",
+		  "radiacao" : "4.70"
+		},
+		"4276" : {
+		  "nome" : "Serafina Corrêa",
+		  "radiacao" : "4.46"
+		},
+		"4277" : {
+		  "nome" : "Sério",
+		  "radiacao" : "4.44"
+		},
+		"4278" : {
+		  "nome" : "Sertão",
+		  "radiacao" : "4.58"
+		},
+		"4279" : {
+		  "nome" : "Sertão Santana",
+		  "radiacao" : "4.71"
+		},
+		"4280" : {
+		  "nome" : "Sete de Setembro",
+		  "radiacao" : "4.66"
+		},
+		"4281" : {
+		  "nome" : "Severiano de Almeida",
+		  "radiacao" : "4.62"
+		},
+		"4282" : {
+		  "nome" : "Silveira Martins",
+		  "radiacao" : "4.78"
+		},
+		"4283" : {
+		  "nome" : "Sinimbu",
+		  "radiacao" : "4.50"
+		},
+		"4284" : {
+		  "nome" : "Sobradinho",
+		  "radiacao" : "4.86"
+		},
+		"4285" : {
+		  "nome" : "Soledade",
+		  "radiacao" : "4.58"
+		},
+		"4286" : {
+		  "nome" : "Tabaí",
+		  "radiacao" : "4.77"
+		},
+		"4287" : {
+		  "nome" : "Tapejara",
+		  "radiacao" : "4.58"
+		},
+		"4288" : {
+		  "nome" : "Tapera",
+		  "radiacao" : "4.59"
+		},
+		"4289" : {
+		  "nome" : "Tapes",
+		  "radiacao" : "4.74"
+		},
+		"4290" : {
+		  "nome" : "Taquara",
+		  "radiacao" : "4.33"
+		},
+		"4291" : {
+		  "nome" : "Taquari",
+		  "radiacao" : "4.80"
+		},
+		"4292" : {
+		  "nome" : "Taquaruçu do Sul",
+		  "radiacao" : "4.66"
+		},
+		"4293" : {
+		  "nome" : "Tavares",
+		  "radiacao" : "4.41"
+		},
+		"4294" : {
+		  "nome" : "Tenente Portela",
+		  "radiacao" : "4.65"
+		},
+		"4295" : {
+		  "nome" : "Terra de Areia",
+		  "radiacao" : "4.20"
+		},
+		"4296" : {
+		  "nome" : "Teutônia",
+		  "radiacao" : "4.79"
+		},
+		"4297" : {
+		  "nome" : "Tio Hugo",
+		  "radiacao" : "4.58"
+		},
+		"4298" : {
+		  "nome" : "Tiradentes do Sul",
+		  "radiacao" : "4.66"
+		},
+		"4299" : {
+		  "nome" : "Toropi",
+		  "radiacao" : "4.60"
+		},
+		"4300" : {
+		  "nome" : "Torres",
+		  "radiacao" : "4.27"
+		},
+		"4301" : {
+		  "nome" : "Tramandaí",
+		  "radiacao" : "4.73"
+		},
+		"4302" : {
+		  "nome" : "Travesseiro",
+		  "radiacao" : "4.46"
+		},
+		"4303" : {
+		  "nome" : "Três Arroios",
+		  "radiacao" : "4.61"
+		},
+		"4304" : {
+		  "nome" : "Três Cachoeiras",
+		  "radiacao" : "4.15"
+		},
+		"4305" : {
+		  "nome" : "Três Coroas",
+		  "radiacao" : "4.30"
+		},
+		"4306" : {
+		  "nome" : "Três de Maio",
+		  "radiacao" : "4.68"
+		},
+		"4307" : {
+		  "nome" : "Três Forquilhas",
+		  "radiacao" : "4.18"
+		},
+		"4308" : {
+		  "nome" : "Três Palmeiras",
+		  "radiacao" : "4.60"
+		},
+		"4309" : {
+		  "nome" : "Três Passos",
+		  "radiacao" : "4.66"
+		},
+		"4310" : {
+		  "nome" : "Trindade do Sul",
+		  "radiacao" : "4.61"
+		},
+		"4311" : {
+		  "nome" : "Triunfo",
+		  "radiacao" : "4.80"
+		},
+		"4312" : {
+		  "nome" : "Tucunduva",
+		  "radiacao" : "4.67"
+		},
+		"4313" : {
+		  "nome" : "Tunas",
+		  "radiacao" : "4.56"
+		},
+		"4314" : {
+		  "nome" : "Tupanci do Sul",
+		  "radiacao" : "4.46"
+		},
+		"4315" : {
+		  "nome" : "Tupanciretã",
+		  "radiacao" : "4.60"
+		},
+		"4316" : {
+		  "nome" : "Tupandi",
+		  "radiacao" : "4.74"
+		},
+		"4317" : {
+		  "nome" : "Tuparendi",
+		  "radiacao" : "4.68"
+		},
+		"4318" : {
+		  "nome" : "Turuçu",
+		  "radiacao" : "4.36"
+		},
+		"4319" : {
+		  "nome" : "Ubiretama",
+		  "radiacao" : "4.68"
+		},
+		"4320" : {
+		  "nome" : "União da Serra",
+		  "radiacao" : "4.53"
+		},
+		"4321" : {
+		  "nome" : "Unistalda",
+		  "radiacao" : "4.70"
+		},
+		"4322" : {
+		  "nome" : "Uruguaiana",
+		  "radiacao" : "4.73"
+		},
+		"4323" : {
+		  "nome" : "Vacaria",
+		  "radiacao" : "4.28"
+		},
+		"4324" : {
+		  "nome" : "Vale do Sol",
+		  "radiacao" : "4.47"
+		},
+		"4325" : {
+		  "nome" : "Vale Real",
+		  "radiacao" : "4.43"
+		},
+		"4326" : {
+		  "nome" : "Vale Verde",
+		  "radiacao" : "4.49"
+		},
+		"4327" : {
+		  "nome" : "Vanini",
+		  "radiacao" : "4.47"
+		},
+		"4328" : {
+		  "nome" : "Venâncio Aires",
+		  "radiacao" : "4.45"
+		},
+		"4329" : {
+		  "nome" : "Vera Cruz",
+		  "radiacao" : "4.48"
+		},
+		"4330" : {
+		  "nome" : "Veranópolis",
+		  "radiacao" : "4.44"
+		},
+		"4331" : {
+		  "nome" : "Vespasiano Correa",
+		  "radiacao" : "4.45"
+		},
+		"4332" : {
+		  "nome" : "Viadutos",
+		  "radiacao" : "4.60"
+		},
+		"4333" : {
+		  "nome" : "Viamão",
+		  "radiacao" : "4.36"
+		},
+		"4334" : {
+		  "nome" : "Vicente Dutra",
+		  "radiacao" : "4.65"
+		},
+		"4335" : {
+		  "nome" : "Victor Graeff",
+		  "radiacao" : "4.58"
+		},
+		"4336" : {
+		  "nome" : "Vila Flores",
+		  "radiacao" : "4.45"
+		},
+		"4337" : {
+		  "nome" : "Vila Lângaro",
+		  "radiacao" : "4.58"
+		},
+		"4338" : {
+		  "nome" : "Vila Maria",
+		  "radiacao" : "4.55"
+		},
+		"4339" : {
+		  "nome" : "Vila Nova do Sul",
+		  "radiacao" : "4.53"
+		},
+		"4340" : {
+		  "nome" : "Vista Alegre",
+		  "radiacao" : "4.66"
+		},
+		"4341" : {
+		  "nome" : "Vista Alegre do Prata",
+		  "radiacao" : "4.44"
+		},
+		"4342" : {
+		  "nome" : "Vista Gaúcha",
+		  "radiacao" : "4.65"
+		},
+		"4343" : {
+		  "nome" : "Vitória das Missões",
+		  "radiacao" : "4.66"
+		},
+		"4344" : {
+		  "nome" : "Westfália",
+		  "radiacao" : "4.45"
+		},
+		"4345" : {
+		  "nome" : "Xangri-lá",
+		  "radiacao" : "4.33"
 		}
-	}
-}
-}
+	  },
+	  "SC" : {
+		"4413" : {
+		  "nome" : "Abdon Batista",
+		  "radiacao" : "4.36"
+		},
+		"4414" : {
+		  "nome" : "Abelardo Luz",
+		  "radiacao" : "4.65"
+		},
+		"4415" : {
+		  "nome" : "Agrolândia",
+		  "radiacao" : "4.00"
+		},
+		"4416" : {
+		  "nome" : "Agronômica",
+		  "radiacao" : "4.00"
+		},
+		"4417" : {
+		  "nome" : "Água Doce",
+		  "radiacao" : "4.45"
+		},
+		"4418" : {
+		  "nome" : "Águas de Chapecó",
+		  "radiacao" : "4.62"
+		},
+		"4419" : {
+		  "nome" : "Águas Frias",
+		  "radiacao" : "4.65"
+		},
+		"4420" : {
+		  "nome" : "Águas Mornas",
+		  "radiacao" : "4.29"
+		},
+		"4421" : {
+		  "nome" : "Alfredo Wagner",
+		  "radiacao" : "4.00"
+		},
+		"4422" : {
+		  "nome" : "Alto Bela Vista",
+		  "radiacao" : "4.45"
+		},
+		"4423" : {
+		  "nome" : "Anchieta",
+		  "radiacao" : "4.70"
+		},
+		"4424" : {
+		  "nome" : "Angelina",
+		  "radiacao" : "3.98"
+		},
+		"4425" : {
+		  "nome" : "Anita Garibaldi",
+		  "radiacao" : "4.39"
+		},
+		"4426" : {
+		  "nome" : "Anitápolis",
+		  "radiacao" : "4.00"
+		},
+		"4427" : {
+		  "nome" : "Antônio Carlos",
+		  "radiacao" : "4.28"
+		},
+		"4428" : {
+		  "nome" : "Apiúna",
+		  "radiacao" : "4.01"
+		},
+		"4429" : {
+		  "nome" : "Arabutã",
+		  "radiacao" : "4.57"
+		},
+		"4430" : {
+		  "nome" : "Araquari",
+		  "radiacao" : "4.13"
+		},
+		"4431" : {
+		  "nome" : "Araranguá",
+		  "radiacao" : "4.17"
+		},
+		"4432" : {
+		  "nome" : "Armazém",
+		  "radiacao" : "4.15"
+		},
+		"4433" : {
+		  "nome" : "Arroio Trinta",
+		  "radiacao" : "4.42"
+		},
+		"4434" : {
+		  "nome" : "Arvoredo",
+		  "radiacao" : "4.60"
+		},
+		"4435" : {
+		  "nome" : "Ascurra",
+		  "radiacao" : "3.99"
+		},
+		"4436" : {
+		  "nome" : "Atalanta",
+		  "radiacao" : "4.03"
+		},
+		"4437" : {
+		  "nome" : "Aurora",
+		  "radiacao" : "4.01"
+		},
+		"4438" : {
+		  "nome" : "Balneário Arroio do Silva",
+		  "radiacao" : "4.32"
+		},
+		"4439" : {
+		  "nome" : "Balneário Barra do Sul",
+		  "radiacao" : "4.18"
+		},
+		"4440" : {
+		  "nome" : "Balneário Camboriú",
+		  "radiacao" : "4.34"
+		},
+		"4441" : {
+		  "nome" : "Balneário Gaivota",
+		  "radiacao" : "4.29"
+		},
+		"4442" : {
+		  "nome" : "Bandeirante",
+		  "radiacao" : "4.68"
+		},
+		"4443" : {
+		  "nome" : "Barra Bonita",
+		  "radiacao" : "4.70"
+		},
+		"4444" : {
+		  "nome" : "Barra Velha",
+		  "radiacao" : "4.18"
+		},
+		"4445" : {
+		  "nome" : "Bela Vista do Toldo",
+		  "radiacao" : "4.19"
+		},
+		"4446" : {
+		  "nome" : "Belmonte",
+		  "radiacao" : "4.69"
+		},
+		"4447" : {
+		  "nome" : "Benedito Novo",
+		  "radiacao" : "3.97"
+		},
+		"4448" : {
+		  "nome" : "Biguaçu",
+		  "radiacao" : "4.34"
+		},
+		"4449" : {
+		  "nome" : "Blumenau",
+		  "radiacao" : "4.01"
+		},
+		"4450" : {
+		  "nome" : "Bocaina do Sul",
+		  "radiacao" : "4.05"
+		},
+		"4451" : {
+		  "nome" : "Bom Jardim da Serra",
+		  "radiacao" : "4.19"
+		},
+		"4452" : {
+		  "nome" : "Bom Jesus",
+		  "radiacao" : "4.64"
+		},
+		"4453" : {
+		  "nome" : "Bom Jesus do Oeste",
+		  "radiacao" : "4.69"
+		},
+		"4454" : {
+		  "nome" : "Bom Retiro",
+		  "radiacao" : "4.06"
+		},
+		"4455" : {
+		  "nome" : "Bombinhas",
+		  "radiacao" : "4.42"
+		},
+		"4456" : {
+		  "nome" : "Botuverá",
+		  "radiacao" : "3.95"
+		},
+		"4457" : {
+		  "nome" : "Braço do Norte",
+		  "radiacao" : "4.12"
+		},
+		"4458" : {
+		  "nome" : "Braço do Trombudo",
+		  "radiacao" : "3.99"
+		},
+		"4459" : {
+		  "nome" : "Brunópolis",
+		  "radiacao" : "4.17"
+		},
+		"4460" : {
+		  "nome" : "Brusque",
+		  "radiacao" : "4.26"
+		},
+		"4461" : {
+		  "nome" : "Caçador",
+		  "radiacao" : "4.37"
+		},
+		"4462" : {
+		  "nome" : "Caibi",
+		  "radiacao" : "4.64"
+		},
+		"4463" : {
+		  "nome" : "Calmon",
+		  "radiacao" : "4.33"
+		},
+		"4464" : {
+		  "nome" : "Camboriú",
+		  "radiacao" : "4.34"
+		},
+		"4465" : {
+		  "nome" : "Campo Alegre",
+		  "radiacao" : "4.03"
+		},
+		"4466" : {
+		  "nome" : "Campo Belo do Sul",
+		  "radiacao" : "4.23"
+		},
+		"4467" : {
+		  "nome" : "Campo Erê",
+		  "radiacao" : "4.70"
+		},
+		"4468" : {
+		  "nome" : "Campos Novos",
+		  "radiacao" : "4.38"
+		},
+		"4469" : {
+		  "nome" : "Canelinha",
+		  "radiacao" : "4.30"
+		},
+		"4470" : {
+		  "nome" : "Canoinhas",
+		  "radiacao" : "4.20"
+		},
+		"4471" : {
+		  "nome" : "Capão Alto",
+		  "radiacao" : "4.20"
+		},
+		"4472" : {
+		  "nome" : "Capinzal",
+		  "radiacao" : "4.44"
+		},
+		"4473" : {
+		  "nome" : "Capivari de Baixo",
+		  "radiacao" : "4.47"
+		},
+		"4474" : {
+		  "nome" : "Catanduvas",
+		  "radiacao" : "4.38"
+		},
+		"4475" : {
+		  "nome" : "Caxambu do Sul",
+		  "radiacao" : "4.62"
+		},
+		"4476" : {
+		  "nome" : "Celso Ramos",
+		  "radiacao" : "4.41"
+		},
+		"4477" : {
+		  "nome" : "Cerro Negro",
+		  "radiacao" : "4.25"
+		},
+		"4478" : {
+		  "nome" : "Chapadão do Lageado",
+		  "radiacao" : "4.06"
+		},
+		"4479" : {
+		  "nome" : "Chapecó",
+		  "radiacao" : "4.60"
+		},
+		"4480" : {
+		  "nome" : "Cocal do Sul",
+		  "radiacao" : "4.07"
+		},
+		"4481" : {
+		  "nome" : "Concórdia",
+		  "radiacao" : "4.58"
+		},
+		"4482" : {
+		  "nome" : "Cordilheira Alta",
+		  "radiacao" : "4.66"
+		},
+		"4483" : {
+		  "nome" : "Coronel Freitas",
+		  "radiacao" : "4.67"
+		},
+		"4484" : {
+		  "nome" : "Coronel Martins",
+		  "radiacao" : "4.66"
+		},
+		"4485" : {
+		  "nome" : "Correia Pinto",
+		  "radiacao" : "4.16"
+		},
+		"4486" : {
+		  "nome" : "Corupá",
+		  "radiacao" : "3.95"
+		},
+		"4487" : {
+		  "nome" : "Criciúma",
+		  "radiacao" : "4.07"
+		},
+		"4488" : {
+		  "nome" : "Cunha Porã",
+		  "radiacao" : "4.68"
+		},
+		"4489" : {
+		  "nome" : "Cunhataí",
+		  "radiacao" : "4.68"
+		},
+		"4490" : {
+		  "nome" : "Curitibanos",
+		  "radiacao" : "4.20"
+		},
+		"4491" : {
+		  "nome" : "Descanso",
+		  "radiacao" : "4.68"
+		},
+		"4492" : {
+		  "nome" : "Dionísio Cerqueira",
+		  "radiacao" : "4.73"
+		},
+		"4493" : {
+		  "nome" : "Dona Emma",
+		  "radiacao" : "4.02"
+		},
+		"4494" : {
+		  "nome" : "Doutor Pedrinho",
+		  "radiacao" : "3.97"
+		},
+		"4495" : {
+		  "nome" : "Entre Rios",
+		  "radiacao" : "4.66"
+		},
+		"4496" : {
+		  "nome" : "Ermo",
+		  "radiacao" : "4.11"
+		},
+		"4497" : {
+		  "nome" : "Erval Velho",
+		  "radiacao" : "4.42"
+		},
+		"4498" : {
+		  "nome" : "Faxinal dos Guedes",
+		  "radiacao" : "4.63"
+		},
+		"4499" : {
+		  "nome" : "Flor do Sertão",
+		  "radiacao" : "4.69"
+		},
+		"4500" : {
+		  "nome" : "Florianópolis",
+		  "radiacao" : "4.37"
+		},
+		"4501" : {
+		  "nome" : "Formosa do Sul",
+		  "radiacao" : "4.65"
+		},
+		"4502" : {
+		  "nome" : "Forquilhinha",
+		  "radiacao" : "4.13"
+		},
+		"4503" : {
+		  "nome" : "Fraiburgo",
+		  "radiacao" : "4.22"
+		},
+		"4504" : {
+		  "nome" : "Frei Rogério",
+		  "radiacao" : "4.22"
+		},
+		"4505" : {
+		  "nome" : "Galvão",
+		  "radiacao" : "4.65"
+		},
+		"4506" : {
+		  "nome" : "Garopaba",
+		  "radiacao" : "4.40"
+		},
+		"4507" : {
+		  "nome" : "Garuva",
+		  "radiacao" : "3.96"
+		},
+		"4508" : {
+		  "nome" : "Gaspar",
+		  "radiacao" : "4.15"
+		},
+		"4509" : {
+		  "nome" : "Governador Celso Ramos",
+		  "radiacao" : "4.39"
+		},
+		"4510" : {
+		  "nome" : "Grão Pará",
+		  "radiacao" : "4.07"
+		},
+		"4511" : {
+		  "nome" : "Gravatal",
+		  "radiacao" : "4.14"
+		},
+		"4512" : {
+		  "nome" : "Guabiruba",
+		  "radiacao" : "3.92"
+		},
+		"4513" : {
+		  "nome" : "Guaraciaba",
+		  "radiacao" : "4.70"
+		},
+		"4514" : {
+		  "nome" : "Guaramirim",
+		  "radiacao" : "3.95"
+		},
+		"4515" : {
+		  "nome" : "Guarujá do Sul",
+		  "radiacao" : "4.71"
+		},
+		"4516" : {
+		  "nome" : "Guatambú",
+		  "radiacao" : "4.61"
+		},
+		"4517" : {
+		  "nome" : "Herval d`Oeste",
+		  "radiacao" : "4.41"
+		},
+		"4518" : {
+		  "nome" : "Ibiam",
+		  "radiacao" : "4.39"
+		},
+		"4519" : {
+		  "nome" : "Ibicaré",
+		  "radiacao" : "4.39"
+		},
+		"4520" : {
+		  "nome" : "Ibirama",
+		  "radiacao" : "3.98"
+		},
+		"4521" : {
+		  "nome" : "Içara",
+		  "radiacao" : "4.15"
+		},
+		"4522" : {
+		  "nome" : "Ilhota",
+		  "radiacao" : "4.15"
+		},
+		"4523" : {
+		  "nome" : "Imaruí",
+		  "radiacao" : "4.45"
+		},
+		"4524" : {
+		  "nome" : "Imbituba",
+		  "radiacao" : "4.41"
+		},
+		"4525" : {
+		  "nome" : "Imbuia",
+		  "radiacao" : "4.00"
+		},
+		"4526" : {
+		  "nome" : "Indaial",
+		  "radiacao" : "4.02"
+		},
+		"4527" : {
+		  "nome" : "Iomerê",
+		  "radiacao" : "4.35"
+		},
+		"4528" : {
+		  "nome" : "Ipira",
+		  "radiacao" : "4.44"
+		},
+		"4529" : {
+		  "nome" : "Iporã do Oeste",
+		  "radiacao" : "4.58"
+		},
+		"4530" : {
+		  "nome" : "Ipuaçu",
+		  "radiacao" : "4.65"
+		},
+		"4531" : {
+		  "nome" : "Ipumirim",
+		  "radiacao" : "4.56"
+		},
+		"4532" : {
+		  "nome" : "Iraceminha",
+		  "radiacao" : "4.69"
+		},
+		"4533" : {
+		  "nome" : "Irani",
+		  "radiacao" : "4.39"
+		},
+		"4534" : {
+		  "nome" : "Irati",
+		  "radiacao" : "4.65"
+		},
+		"4535" : {
+		  "nome" : "Irineópolis",
+		  "radiacao" : "4.15"
+		},
+		"4536" : {
+		  "nome" : "Itá",
+		  "radiacao" : "4.60"
+		},
+		"4537" : {
+		  "nome" : "Itaiópolis",
+		  "radiacao" : "4.06"
+		},
+		"4538" : {
+		  "nome" : "Itajaí",
+		  "radiacao" : "4.20"
+		},
+		"4539" : {
+		  "nome" : "Itapema",
+		  "radiacao" : "4.30"
+		},
+		"4540" : {
+		  "nome" : "Itapiranga",
+		  "radiacao" : "4.63"
+		},
+		"4541" : {
+		  "nome" : "Itapoá",
+		  "radiacao" : "4.12"
+		},
+		"4542" : {
+		  "nome" : "Ituporanga",
+		  "radiacao" : "4.02"
+		},
+		"4543" : {
+		  "nome" : "Jaborá",
+		  "radiacao" : "4.31"
+		},
+		"4544" : {
+		  "nome" : "Jacinto Machado",
+		  "radiacao" : "4.10"
+		},
+		"4545" : {
+		  "nome" : "Jaguaruna",
+		  "radiacao" : "4.15"
+		},
+		"4546" : {
+		  "nome" : "Jaraguá do Sul",
+		  "radiacao" : "3.96"
+		},
+		"4547" : {
+		  "nome" : "Jardinópolis",
+		  "radiacao" : "4.65"
+		},
+		"4548" : {
+		  "nome" : "Joaçaba",
+		  "radiacao" : "4.40"
+		},
+		"4549" : {
+		  "nome" : "Joinville",
+		  "radiacao" : "3.99"
+		},
+		"4550" : {
+		  "nome" : "José Boiteux",
+		  "radiacao" : "4.02"
+		},
+		"4551" : {
+		  "nome" : "Jupiá",
+		  "radiacao" : "4.66"
+		},
+		"4552" : {
+		  "nome" : "Lacerdópolis",
+		  "radiacao" : "4.40"
+		},
+		"4553" : {
+		  "nome" : "Lages",
+		  "radiacao" : "4.16"
+		},
+		"4554" : {
+		  "nome" : "Laguna",
+		  "radiacao" : "4.51"
+		},
+		"4555" : {
+		  "nome" : "Lajeado Grande",
+		  "radiacao" : "4.66"
+		},
+		"4556" : {
+		  "nome" : "Laurentino",
+		  "radiacao" : "4.01"
+		},
+		"4557" : {
+		  "nome" : "Lauro Muller",
+		  "radiacao" : "4.00"
+		},
+		"4558" : {
+		  "nome" : "Lebon Régis",
+		  "radiacao" : "4.29"
+		},
+		"4559" : {
+		  "nome" : "Leoberto Leal",
+		  "radiacao" : "3.99"
+		},
+		"4560" : {
+		  "nome" : "Lindóia do Sul",
+		  "radiacao" : "4.56"
+		},
+		"4561" : {
+		  "nome" : "Lontras",
+		  "radiacao" : "4.01"
+		},
+		"4562" : {
+		  "nome" : "Luiz Alves",
+		  "radiacao" : "4,13"
+		},
+		"4563" : {
+		  "nome" : "Luzerna",
+		  "radiacao" : "4.38"
+		},
+		"4564" : {
+		  "nome" : "Macieira",
+		  "radiacao" : "4.39"
+		},
+		"4565" : {
+		  "nome" : "Mafra",
+		  "radiacao" : "4.08"
+		},
+		"4566" : {
+		  "nome" : "Major Gercino",
+		  "radiacao" : "4.28"
+		},
+		"4567" : {
+		  "nome" : "Major Vieira",
+		  "radiacao" : "4.20"
+		},
+		"4568" : {
+		  "nome" : "Maracajá",
+		  "radiacao" : "4.15"
+		},
+		"4569" : {
+		  "nome" : "Maravilha",
+		  "radiacao" : "4.69"
+		},
+		"4570" : {
+		  "nome" : "Marema",
+		  "radiacao" : "4.67"
+		},
+		"4571" : {
+		  "nome" : "Massaranduba",
+		  "radiacao" : "3.97"
+		},
+		"4572" : {
+		  "nome" : "Matos Costa",
+		  "radiacao" : "4.32"
+		},
+		"4573" : {
+		  "nome" : "Meleiro",
+		  "radiacao" : "4.04"
+		},
+		"4574" : {
+		  "nome" : "Mirim Doce",
+		  "radiacao" : "4.02"
+		},
+		"4575" : {
+		  "nome" : "Modelo",
+		  "radiacao" : "4.67"
+		},
+		"4576" : {
+		  "nome" : "Mondaí",
+		  "radiacao" : "4.64"
+		},
+		"4577" : {
+		  "nome" : "Monte Carlo",
+		  "radiacao" : "4.23"
+		},
+		"4578" : {
+		  "nome" : "Monte Castelo",
+		  "radiacao" : "4.19"
+		},
+		"4579" : {
+		  "nome" : "Morro da Fumaça",
+		  "radiacao" : "4.11"
+		},
+		"4580" : {
+		  "nome" : "Morro Grande",
+		  "radiacao" : "4.02"
+		},
+		"4581" : {
+		  "nome" : "Navegantes",
+		  "radiacao" : "4.27"
+		},
+		"4582" : {
+		  "nome" : "Nova Erechim",
+		  "radiacao" : "4.64"
+		},
+		"4583" : {
+		  "nome" : "Nova Itaberaba",
+		  "radiacao" : "4.67"
+		},
+		"4584" : {
+		  "nome" : "Nova Trento",
+		  "radiacao" : "4.28"
+		},
+		"4585" : {
+		  "nome" : "Nova Veneza",
+		  "radiacao" : "4.02"
+		},
+		"4586" : {
+		  "nome" : "Novo Horizonte",
+		  "radiacao" : "4.65"
+		},
+		"4587" : {
+		  "nome" : "Orleans",
+		  "radiacao" : "4.09"
+		},
+		"4588" : {
+		  "nome" : "Otacílio Costa",
+		  "radiacao" : "4.08"
+		},
+		"4589" : {
+		  "nome" : "Ouro",
+		  "radiacao" : "4.42"
+		},
+		"4590" : {
+		  "nome" : "Ouro Verde",
+		  "radiacao" : "4.64"
+		},
+		"4591" : {
+		  "nome" : "Paial",
+		  "radiacao" : "4.55"
+		},
+		"4592" : {
+		  "nome" : "Painel",
+		  "radiacao" : "4.19"
+		},
+		"4593" : {
+		  "nome" : "Palhoça",
+		  "radiacao" : "4.29"
+		},
+		"4594" : {
+		  "nome" : "Palma Sola",
+		  "radiacao" : "4.71"
+		},
+		"4595" : {
+		  "nome" : "Palmeira",
+		  "radiacao" : "4.11"
+		},
+		"4596" : {
+		  "nome" : "Palmitos",
+		  "radiacao" : "4.63"
+		},
+		"4597" : {
+		  "nome" : "Papanduva",
+		  "radiacao" : "4.19"
+		},
+		"4598" : {
+		  "nome" : "Paraíso",
+		  "radiacao" : "4.69"
+		},
+		"4599" : {
+		  "nome" : "Passo de Torres",
+		  "radiacao" : "4.27"
+		},
+		"4600" : {
+		  "nome" : "Passos Maia",
+		  "radiacao" : "4.62"
+		},
+		"4601" : {
+		  "nome" : "Paulo Lopes",
+		  "radiacao" : "4.22"
+		},
+		"4602" : {
+		  "nome" : "Pedras Grandes",
+		  "radiacao" : "4.10"
+		},
+		"4603" : {
+		  "nome" : "Penha",
+		  "radiacao" : "4.25"
+		},
+		"4604" : {
+		  "nome" : "Peritiba",
+		  "radiacao" : "4.43"
+		},
+		"4605" : {
+		  "nome" : "Petrolândia",
+		  "radiacao" : "4.02"
+		},
+		"4606" : {
+		  "nome" : "Piçarras",
+		  "radiacao" : "4.25"
+		},
+		"4607" : {
+		  "nome" : "Pinhalzinho",
+		  "radiacao" : "4.64"
+		},
+		"4608" : {
+		  "nome" : "Pinheiro Preto",
+		  "radiacao" : "4.35"
+		},
+		"4609" : {
+		  "nome" : "Piratuba",
+		  "radiacao" : "4.44"
+		},
+		"4610" : {
+		  "nome" : "Planalto Alegre",
+		  "radiacao" : "4.58"
+		},
+		"4611" : {
+		  "nome" : "Pomerode",
+		  "radiacao" : "3.94"
+		},
+		"4612" : {
+		  "nome" : "Ponte Alta",
+		  "radiacao" : "4.15"
+		},
+		"4613" : {
+		  "nome" : "Ponte Alta do Norte",
+		  "radiacao" : "4.18"
+		},
+		"4614" : {
+		  "nome" : "Ponte Serrada",
+		  "radiacao" : "4.60"
+		},
+		"4615" : {
+		  "nome" : "Porto Belo",
+		  "radiacao" : "4.31"
+		},
+		"4616" : {
+		  "nome" : "Porto União",
+		  "radiacao" : "4.29"
+		},
+		"4617" : {
+		  "nome" : "Pouso Redondo",
+		  "radiacao" : "4.09"
+		},
+		"4618" : {
+		  "nome" : "Praia Grande",
+		  "radiacao" : "4.17"
+		},
+		"4619" : {
+		  "nome" : "Presidente Castelo Branco",
+		  "radiacao" : "4.41"
+		},
+		"4620" : {
+		  "nome" : "Presidente Getúlio",
+		  "radiacao" : "4.00"
+		},
+		"4621" : {
+		  "nome" : "Presidente Nereu",
+		  "radiacao" : "4.05"
+		},
+		"4622" : {
+		  "nome" : "Princesa",
+		  "radiacao" : "4.71"
+		},
+		"4623" : {
+		  "nome" : "Quilombo",
+		  "radiacao" : "4.67"
+		},
+		"4624" : {
+		  "nome" : "Rancho Queimado",
+		  "radiacao" : "4.04"
+		},
+		"4625" : {
+		  "nome" : "Rio das Antas",
+		  "radiacao" : "4.39"
+		},
+		"4626" : {
+		  "nome" : "Rio do Campo",
+		  "radiacao" : "4.13"
+		},
+		"4627" : {
+		  "nome" : "Rio do Oeste",
+		  "radiacao" : "4.01"
+		},
+		"4628" : {
+		  "nome" : "Rio do Sul",
+		  "radiacao" : "4.01"
+		},
+		"4629" : {
+		  "nome" : "Rio dos Cedros",
+		  "radiacao" : "3.94"
+		},
+		"4630" : {
+		  "nome" : "Rio Fortuna",
+		  "radiacao" : "4.10"
+		},
+		"4631" : {
+		  "nome" : "Rio Negrinho",
+		  "radiacao" : "4.05"
+		},
+		"4632" : {
+		  "nome" : "Rio Rufino",
+		  "radiacao" : "4.06"
+		},
+		"4633" : {
+		  "nome" : "Riqueza",
+		  "radiacao" : "4.64"
+		},
+		"4634" : {
+		  "nome" : "Rodeio",
+		  "radiacao" : "4.01"
+		},
+		"4635" : {
+		  "nome" : "Romelândia",
+		  "radiacao" : "4.70"
+		},
+		"4636" : {
+		  "nome" : "Salete",
+		  "radiacao" : "4.14"
+		},
+		"4637" : {
+		  "nome" : "Saltinho",
+		  "radiacao" : "4.68"
+		},
+		"4638" : {
+		  "nome" : "Salto Veloso",
+		  "radiacao" : "4.44"
+		},
+		"4639" : {
+		  "nome" : "Sangão",
+		  "radiacao" : "4.13"
+		},
+		"4640" : {
+		  "nome" : "Santa Cecília",
+		  "radiacao" : "4.22"
+		},
+		"4641" : {
+		  "nome" : "Santa Helena",
+		  "radiacao" : "4.68"
+		},
+		"4642" : {
+		  "nome" : "Santa Rosa de Lima",
+		  "radiacao" : "4.08"
+		},
+		"4643" : {
+		  "nome" : "Santa Rosa do Sul",
+		  "radiacao" : "4.20"
+		},
+		"4644" : {
+		  "nome" : "Santa Terezinha",
+		  "radiacao" : "4.18"
+		},
+		"4645" : {
+		  "nome" : "Santa Terezinha do Progresso",
+		  "radiacao" : "4.69"
+		},
+		"4646" : {
+		  "nome" : "Santiago do Sul",
+		  "radiacao" : "4.65"
+		},
+		"4647" : {
+		  "nome" : "Santo Amaro da Imperatriz",
+		  "radiacao" : "4.32"
+		},
+		"4648" : {
+		  "nome" : "São Bento do Sul",
+		  "radiacao" : "4.00"
+		},
+		"4649" : {
+		  "nome" : "São Bernardino",
+		  "radiacao" : "4.64"
+		},
+		"4650" : {
+		  "nome" : "São Bonifácio",
+		  "radiacao" : "4.27"
+		},
+		"4651" : {
+		  "nome" : "São Carlos",
+		  "radiacao" : "4.64"
+		},
+		"4652" : {
+		  "nome" : "São Cristovão do Sul",
+		  "radiacao" : "4.14"
+		},
+		"4653" : {
+		  "nome" : "São Domingos",
+		  "radiacao" : "4.65"
+		},
+		"4654" : {
+		  "nome" : "São Francisco do Sul",
+		  "radiacao" : "4.10"
+		},
+		"4655" : {
+		  "nome" : "São João Batista",
+		  "radiacao" : "4.31"
+		},
+		"4656" : {
+		  "nome" : "São João do Itaperiú",
+		  "radiacao" : "4.14"
+		},
+		"4657" : {
+		  "nome" : "São João do Oeste",
+		  "radiacao" : "4.64"
+		},
+		"4658" : {
+		  "nome" : "São João do Sul",
+		  "radiacao" : "4.17"
+		},
+		"4659" : {
+		  "nome" : "São Joaquim",
+		  "radiacao" : "4.23"
+		},
+		"4660" : {
+		  "nome" : "São José",
+		  "radiacao" : "4.36"
+		},
+		"4661" : {
+		  "nome" : "São José do Cedro",
+		  "radiacao" : "4.70"
+		},
+		"4662" : {
+		  "nome" : "São José do Cerrito",
+		  "radiacao" : "4.18"
+		},
+		"4663" : {
+		  "nome" : "São Lourenço do Oeste",
+		  "radiacao" : "4.66"
+		},
+		"4664" : {
+		  "nome" : "São Ludgero",
+		  "radiacao" : "4.13"
+		},
+		"4665" : {
+		  "nome" : "São Martinho",
+		  "radiacao" : "4.44"
+		},
+		"4666" : {
+		  "nome" : "São Miguel da Boa Vista",
+		  "radiacao" : "4.69"
+		},
+		"4667" : {
+		  "nome" : "São Miguel do Oeste",
+		  "radiacao" : "4.69"
+		},
+		"4668" : {
+		  "nome" : "São Pedro de Alcântara",
+		  "radiacao" : "4.27"
+		},
+		"4669" : {
+		  "nome" : "Saudades",
+		  "radiacao" : "4.68"
+		},
+		"4670" : {
+		  "nome" : "Schroeder",
+		  "radiacao" : "3.90"
+		},
+		"4671" : {
+		  "nome" : "Seara",
+		  "radiacao" : "4.54"
+		},
+		"4672" : {
+		  "nome" : "Serra Alta",
+		  "radiacao" : "4.68"
+		},
+		"4673" : {
+		  "nome" : "Siderópolis",
+		  "radiacao" : "4.02"
+		},
+		"4674" : {
+		  "nome" : "Sombrio",
+		  "radiacao" : "4.26"
+		},
+		"4675" : {
+		  "nome" : "Sul Brasil",
+		  "radiacao" : "4.64"
+		},
+		"4676" : {
+		  "nome" : "Taió",
+		  "radiacao" : "4.02"
+		},
+		"4677" : {
+		  "nome" : "Tangará",
+		  "radiacao" : "4.36"
+		},
+		"4678" : {
+		  "nome" : "Tigrinhos",
+		  "radiacao" : "4.69"
+		},
+		"4679" : {
+		  "nome" : "Tijucas",
+		  "radiacao" : "4.35"
+		},
+		"4680" : {
+		  "nome" : "Timbé do Sul",
+		  "radiacao" : "3.98"
+		},
+		"4681" : {
+		  "nome" : "Timbó",
+		  "radiacao" : "3.98"
+		},
+		"4682" : {
+		  "nome" : "Timbó Grande",
+		  "radiacao" : "4.20"
+		},
+		"4683" : {
+		  "nome" : "Três Barras",
+		  "radiacao" : "4.20"
+		},
+		"4684" : {
+		  "nome" : "Treviso",
+		  "radiacao" : "3.98"
+		},
+		"4685" : {
+		  "nome" : "Treze de Maio",
+		  "radiacao" : "4.13"
+		},
+		"4686" : {
+		  "nome" : "Treze Tílias",
+		  "radiacao" : "4.37"
+		},
+		"4687" : {
+		  "nome" : "Trombudo Central",
+		  "radiacao" : "4.02"
+		},
+		"4688" : {
+		  "nome" : "Tubarão",
+		  "radiacao" : "4.14"
+		},
+		"4689" : {
+		  "nome" : "Tunápolis",
+		  "radiacao" : "4.68"
+		},
+		"4690" : {
+		  "nome" : "Turvo",
+		  "radiacao" : "4.04"
+		},
+		"4691" : {
+		  "nome" : "União do Oeste",
+		  "radiacao" : "4.65"
+		},
+		"4692" : {
+		  "nome" : "Urubici",
+		  "radiacao" : "4.11"
+		},
+		"4693" : {
+		  "nome" : "Urupema",
+		  "radiacao" : "4.14"
+		},
+		"4694" : {
+		  "nome" : "Urussanga",
+		  "radiacao" : "4.07"
+		},
+		"4695" : {
+		  "nome" : "Vargeão",
+		  "radiacao" : "4.62"
+		},
+		"4696" : {
+		  "nome" : "Vargem",
+		  "radiacao" : "4.23"
+		},
+		"4697" : {
+		  "nome" : "Vargem Bonita",
+		  "radiacao" : "4.39"
+		},
+		"4698" : {
+		  "nome" : "Vidal Ramos",
+		  "radiacao" : "3.99"
+		},
+		"4699" : {
+		  "nome" : "Videira",
+		  "radiacao" : "4.34"
+		},
+		"4700" : {
+		  "nome" : "Vitor Meireles",
+		  "radiacao" : "4.02"
+		},
+		"4701" : {
+		  "nome" : "Witmarsum",
+		  "radiacao" : "4.02"
+		},
+		"4702" : {
+		  "nome" : "Xanxerê",
+		  "radiacao" : "4.63"
+		},
+		"4703" : {
+		  "nome" : "Xavantina",
+		  "radiacao" : "4.56"
+		},
+		"4704" : {
+		  "nome" : "Xaxim",
+		  "radiacao" : "4.65"
+		},
+		"4705" : {
+		  "nome" : "Zortéa",
+		  "radiacao" : "4.44"
+		}
+	  }
+	},
+	"estados" : {
+	  "PR" : {
+		"id" : "18",
+		"nome" : "Paraná",
+		"sigla" : "PR"
+	  },
+	  "RS" : {
+		"id" : "23",
+		"nome" : "Rio Grande do Sul",
+		"sigla" : "RS"
+	  },
+	  "SC" : {
+		"id" : "24",
+		"nome" : "Santa Catarina",
+		"sigla" : "SC"
+	  }
+	},
+	"users" : {
+	  "AEF6JRMkmmc5NIGJwUtEtSy1BrW2" : {
+		"email" : "fulano@fulano.com",
+		"name" : "Fulano",
+		"username" : "Fulano"
+	  },
+	  "YRmiBu6CvfSs6m3SyRg6fGigzjS2" : {
+		"email" : "leoo.rossetti@gmail.com",
+		"name" : "Leonardo",
+		"username" : "leoros7"
+	  }
+	},
+	"valorKits" : {
+	  "ate5" : {
+		"nome" : "Até 5",
+		"valor" : "5.6"
+	  },
+	  "de10a15" : {
+		"nome" : "De 10 a 15",
+		"valor" : "4.87"
+	  },
+	  "de15a20" : {
+		"nome" : "De 15 a 20",
+		"valor" : "4.54"
+	  },
+	  "de20a25" : {
+		"nome" : "De 20 a 25",
+		"valor" : "4.18"
+	  },
+	  "de25a30" : {
+		"nome" : "De 25 a 30",
+		"valor" : "4.15"
+	  },
+	  "de30a35" : {
+		"nome" : "De 30 a 35",
+		"valor" : "4.15"
+	  },
+	  "de35a40" : {
+		"nome" : "De 35 a 40",
+		"valor" : "4.01"
+	  },
+	  "de40a45" : {
+		"nome" : "De 40 a 45",
+		"valor" : "3.98"
+	  },
+	  "de45a50" : {
+		"nome" : "De 45 a 50",
+		"valor" : "3.9"
+	  },
+	  "de50a55" : {
+		"nome" : "De 50 a 55",
+		"valor" : "3.88"
+	  },
+	  "de55a60" : {
+		"nome" : "De 55 a 60",
+		"valor" : "3.68"
+	  },
+	  "de5a10" : {
+		"nome" : "De 5 a 10",
+		"valor" : "4.97"
+	  },
+	  "de60a65" : {
+		"nome" : "De 60 a 65",
+		"valor" : "3.66"
+	  },
+	  "de65a70" : {
+		"nome" : "De 65 a 70",
+		"valor" : "3.6"
+	  },
+	  "de70a75" : {
+		"nome" : "De 70 a 75",
+		"valor" : "3.56"
+	  }
+	},
+	"ControleAlteracao": {
+		  "dataUltimaAlteracao": "2018-05-15T20:19:31.012Z"
+	  }
+  }
+  

@@ -14,6 +14,7 @@ import { Cidade } from './../../models/cidades.models';
 import * as firebase from 'firebase/app';
 import 'firebase/storage';
 import { Loading, LoadingController } from 'ionic-angular';
+import { ControleAlteracao } from '../../models/controleAlteracao.models';
 
 @Injectable()
 export class CidadeService extends BaseService {
@@ -21,6 +22,7 @@ export class CidadeService extends BaseService {
   cidades: Observable<Cidade[]>;
   currentCidade: AngularFireObject<Cidade>;
   listaCidades: Cidade[];
+  currentDataAlteracao: AngularFireObject<ControleAlteracao>;
 
   constructor(
     //public afAuth: AngularFireAuth,
@@ -44,6 +46,10 @@ export class CidadeService extends BaseService {
   // }
 
   edit(Cidade: {radiacao: string}): Promise<void> {
+    this.currentDataAlteracao
+      .update(new ControleAlteracao(new Date().toISOString()))
+      .catch(this.handlePromiseError);
+
     return this.currentCidade
       .update(Cidade)
       .catch(this.handlePromiseError);
